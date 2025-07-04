@@ -235,3 +235,4 @@ C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\refint\DannZ.dll
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\DannZ.pdb
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\DannZ.genruntimeconfig.cache
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\ref\DannZ.dll
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\DannZ.sourcelink.json

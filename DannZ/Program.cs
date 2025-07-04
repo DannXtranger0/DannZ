@@ -18,6 +18,15 @@ builder.Services.AddDbContext<AppIdentityDbContext>(options =>
 //Set Up Identity As a Service
 builder.Services.AddIdentity<AppUser,IdentityRole>().AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders();
 
+//Changing policies of UserName
+
+//builder.Services.Configure<IdentityOptions>(options =>
+//{
+//    options.User.AllowedUserNameCharacters =
+//    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._ @+";
+
+//});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -39,7 +48,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Admin}/{action=Create}/{id?}")
     .WithStaticAssets();
 
 
