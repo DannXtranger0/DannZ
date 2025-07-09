@@ -5,7 +5,10 @@
     ViewData["Title"] = "Login";
 }
 
-<form asp-action="Login" asp-controller="Account" method="post" >
+<form asp-action="Login" asp-controller="Auth" method="post" >
+    <div>
+        <p>@(ViewData["EmailError"] ?? "")</p>
+    </div>
     <div>
         <label for="Email">Email</label>
         <input type="email" name="Email" placeholder="example@example.com" id="Email" />

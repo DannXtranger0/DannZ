@@ -34,32 +34,47 @@ namespace DannZ.Controllers
             return View();
         }
 
-        //[HttpPost]
-        //public async  Task<IActionResult> Login(LoginDTO login)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginDTO login)
+        {
+            if (ModelState.IsValid)
+            {
 
-        //        if (!_validations.ValidateEmail(login.Email))
-        //        {
-        //            ViewData["EmailError"] = "This mail is not registered in the system";
-        //            return View(login);
-        //        }
+                if (!_validations.ValidateEmail(login.Email))
+                {
+                    ViewData["EmailError"] = "This mail is not registered in the system";
+                    return View(login);
+                }
 
-        //        var account = _context.Users
-        //            .FirstOrDefault(x=> x.Email== login.Email && x.Password== login.Password);
+                var account = _context.Users
+                    .FirstOrDefault(x => x.Email == login.Email && x.Password == login.Password);
 
-        //        if (account != null) 
-        //        {
-        //            //var permissions = _context.RolePermissions
-        //            //Traigo los permisos y los convierto a claims
+                if (account != null)
+                {
+                    //traigo los claims d el usuario
+                    var claimList = await GetUserClaims(account.RoleId);
 
-        //            //var identity = new ClaimsIdentity(account.claim)
-        //        }
+                    var identity = new ClaimsIdentity(claimList, cookieName);
 
-        //    }
+                    //Propiedades de la cookie
+                    var props = new AuthenticationProperties()
+                    {
+                        IsPersistent = login.RememberMe,
+                        ExpiresUtc = DateTimeOffset.UtcNow.AddHours(1)
+                    };
 
-        //}
+                    //crear principal 
+                    var principal = new ClaimsPrincipal(identity);
+
+
+                    //autenticar
+                    await HttpContext.SignInAsync(cookieName,principal,props);
+
+                    return RedirectToAction("MainFeed", "Posts");
+                }
+            }
+            return View(login);
+        }
 
 
 
@@ -109,13 +124,7 @@ namespace DannZ.Controllers
                 await _context.SaveChangesAsync();
 
                 //obtener las claims del usuario
-                var userClaims = await _context.RolePermissions.Where(x => x.RoleId == user.RoleId).Include(x => x.Permissions).Select(x => x.Permissions).ToListAsync();
-                List<Claim> claimList = new List<Claim>();
-
-                foreach(var permission in userClaims)
-                {
-                    claimList.Add(new Claim("permission",permission!.ToString()!));
-                }
+                var claimList = await GetUserClaims(user.RoleId);
 
                 var identity = new ClaimsIdentity(claimList, cookieName);
 
@@ -124,14 +133,37 @@ namespace DannZ.Controllers
 
 
                 //autenticar
-                await HttpContext.SignInAsync(principal);
+                await HttpContext.SignInAsync(cookieName, principal);
 
                 return RedirectToAction("MainFeed", "Posts");
             }
             return View(model);
         }
 
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(cookieName);
+            return RedirectToAction("Login", "Auth");
 
+        }
+
+        private async Task<List<Claim>> GetUserClaims(int roleId)
+        {
+            var userClaims = await _context.RolePermissions
+                   .Where(x => x.RoleId == roleId)
+                   .Include(x => x.Permission)
+                   .Select(x => x.Permission)
+                   .ToListAsync();
+
+            List<Claim> claimList = new List<Claim>();
+
+            foreach (var permission in userClaims)
+            {
+                if (!string.IsNullOrEmpty(permission.PermissionName))
+                    claimList.Add(new Claim("permission", permission.PermissionName.ToString()));
+            }
+            return claimList;
+        }
         //[AllowAnonymous]
         //public IActionResult Login(string ReturnUrl)
         //{

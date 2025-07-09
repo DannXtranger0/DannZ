@@ -10,6 +10,8 @@ namespace DannZ.Controllers
         {
             return View();
         }
+
+        [Authorize("Admin")]
         public IActionResult Posts()
         {
             return View();

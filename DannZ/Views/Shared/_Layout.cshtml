@@ -8,6 +8,14 @@
 </head>
 <body>
     <header>
+        <nav>
+            @if(User.Identity?.IsAuthenticated ?? false){
+                <form asp-action="Logout" asp-controller="Auth" method="post">
+                    <button type="submit">Log Out</button>
+                </form>
+            }
+            @* <a > </a> *@
+        </nav>
     </header>
 
     <div class="container">

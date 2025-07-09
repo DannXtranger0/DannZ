@@ -167,7 +167,7 @@ namespace DannZ.Migrations
 
             modelBuilder.Entity("DannZ.Models.RolePermission", b =>
                 {
-                    b.HasOne("DannZ.Models.Permission", "Permissions")
+                    b.HasOne("DannZ.Models.Permission", "Permission")
                         .WithMany("RolePermissions")
                         .HasForeignKey("PermissionId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -179,7 +179,7 @@ namespace DannZ.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Permissions");
+                    b.Navigation("Permission");
 
                     b.Navigation("Roles");
                 });

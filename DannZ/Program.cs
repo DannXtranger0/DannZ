@@ -47,7 +47,7 @@ builder.Services.AddAuthentication().AddCookie(cookieName!, options =>
 //Policies
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("Admin", policy => policy.RequireClaim("admin", "true"));
+    options.AddPolicy("Admin", policy => policy.RequireClaim("permission", "IsAdmin"));
 });
 
 var app = builder.Build();
