@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DannZ.Models.DTO
+namespace DannZ.Models
 {
-    public class UsersDTO
+    public class User
     {
-        public string? Id { get; set; }
+        public int  Id { get; set; }
         [Required]
         public string Name {  get; set; }
         [Required]
@@ -14,6 +14,7 @@ namespace DannZ.Models.DTO
         public string? Biography { get; set; }
         public string? AvatarUrl { get; set; }
         public string? CoverUrl { get; set; }
-
+        public int RoleId { get; set; }
+        public Role Role { get; set; }
     }
 }

@@ -1,0 +1,29 @@
+﻿@*
+    THIS IS THE LOGIN FORM
+*@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<form asp-action="Login" asp-controller="Account" method="post" >
+    <div>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" placeholder="example@example.com" id="Email" />
+    </div>
+
+    <div>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" placeholder="your password" id="Password" />
+    </div> 
+    <div>
+        <label for="RememberMe">Remember Me</label>
+        <input type="checkbox" name="RememberMe" id="RememberMe" value="true" />
+        <input type="hidden" name="RememberMe" id="RememberMe" value="false" />
+    </div>
+
+
+    <input type="submit" value="Log In" />
+
+    <a href="/Auth/Create">Sign Up Here</a>
+
+</form>
