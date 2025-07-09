@@ -10,5 +10,9 @@ namespace DannZ.Controllers
         {
             return View();
         }
+        public IActionResult Posts()
+        {
+            return View();
+        }
     }
 }

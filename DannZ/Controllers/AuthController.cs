@@ -122,6 +122,7 @@ namespace DannZ.Controllers
                 //crear principal 
                 var principal = new ClaimsPrincipal(identity);
 
+
                 //autenticar
                 await HttpContext.SignInAsync(principal);
 
