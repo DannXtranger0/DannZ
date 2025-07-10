@@ -13,8 +13,10 @@
                 <form asp-action="Logout" asp-controller="Auth" method="post">
                     <button type="submit">Log Out</button>
                 </form>
+
+                <a asp-controller="Account" asp-action="Profile" asp-route-id="@(User.FindFirst("userId")?.Value)">Profile</a>
+
             }
-            @* <a > </a> *@
         </nav>
     </header>
 

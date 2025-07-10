@@ -3,6 +3,8 @@ using DannZ.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using CloudinaryDotNet;
+using DannZ.Policies;
+using Microsoft.AspNetCore.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -43,12 +45,19 @@ builder.Services.AddAuthentication().AddCookie(cookieName!, options =>
 
 });
 
+//Necesario para obtener los datos de la url
+builder.Services.AddHttpContextAccessor(); 
+
 
 //Policies
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Admin", policy => policy.RequireClaim("permission", "IsAdmin"));
+    options.AddPolicy("OwnsProfile", policy => policy.Requirements.Add(new OwnsResourceRequirement("User")));
 });
+//para que nuestro requerimiento personalizado pueda ser leido
+builder.Services.AddScoped<IAuthorizationHandler, OwnsResourceHandler>();
+
 
 var app = builder.Build();
 

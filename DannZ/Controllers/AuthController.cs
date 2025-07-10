@@ -54,6 +54,8 @@ namespace DannZ.Controllers
                     //traigo los claims d el usuario
                     var claimList = await GetUserClaims(account.RoleId);
 
+                    claimList.Add(new Claim("userId", account.Id.ToString()));
+
                     var identity = new ClaimsIdentity(claimList, cookieName);
 
                     //Propiedades de la cookie
@@ -125,8 +127,11 @@ namespace DannZ.Controllers
 
                 //obtener las claims del usuario
                 var claimList = await GetUserClaims(user.RoleId);
+                //Añado la claim del userId para identificarlo en la vista
+                claimList.Add(new Claim("userId", user.Id.ToString()));
 
                 var identity = new ClaimsIdentity(claimList, cookieName);
+
 
                 //crear principal 
                 var principal = new ClaimsPrincipal(identity);
@@ -156,7 +161,6 @@ namespace DannZ.Controllers
                    .ToListAsync();
 
             List<Claim> claimList = new List<Claim>();
-
             foreach (var permission in userClaims)
             {
                 if (!string.IsNullOrEmpty(permission.PermissionName))

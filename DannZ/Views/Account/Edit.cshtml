@@ -1,0 +1,46 @@
+﻿@model User
+@*
+        VIEW FOR EDITING THE PROFILE DATA
+*@
+@{
+    ViewData["title"] = "Edit Profile";
+}
+
+<h1>Edit My Profile</h1>
+
+<h2>Your Information</h2>
+
+<form enctype="multipart/form-data" asp-action="Edit">
+
+    <div>
+        <label asp-for="AvatarUrl">Select a Avatar</label>
+        <div>
+            <img src="@Model.AvatarUrl" style="width:200px;height:200px" />
+            <input type="file" asp-for="AvatarUrl" />
+        </div>
+        
+    </div>
+    <div>
+        <label asp-for="Name"></label>    
+        <input type="text" asp-for="Name" />
+    </div>
+    
+    <div>
+        <label asp-for="Email"></label>
+        <input type="text" asp-for="Email" />
+    </div>
+
+    <div>
+        <label asp-for="Password"></label>
+        <input type="text" asp-for="Password" />
+    </div>
+
+    <div>
+        <label asp-for="Biography"></label>
+        <textarea asp-for="Biography" placeholder="Living The Life 🔥"></textarea>
+    </div>
+
+    <button type="submit">Edit ✔</button>
+</form>
+
+
