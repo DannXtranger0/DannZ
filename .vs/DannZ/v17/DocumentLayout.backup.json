@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Dann\\source\\repos\\DannZ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\policies\\ownsresourcehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\policies\\ownsresourcehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\auth\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\auth\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\auth\\create.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\auth\\create.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\policies\\ownsresourcerequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\policies\\ownsresourcerequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\authvalidations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\authvalidations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\models\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\models\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,102 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 142,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "DannZ\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "DannZ\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAqwBwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T22:50:36.453Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OwnsResourceHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Policies\\OwnsResourceHandler.cs",
-              "RelativeDocumentMoniker": "DannZ\\Policies\\OwnsResourceHandler.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Policies\\OwnsResourceHandler.cs*",
-              "RelativeToolTip": "DannZ\\Policies\\OwnsResourceHandler.cs*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAuwC4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T15:41:54.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "OwnsResourceRequirement.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Policies\\OwnsResourceRequirement.cs",
-              "RelativeDocumentMoniker": "DannZ\\Policies\\OwnsResourceRequirement.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Policies\\OwnsResourceRequirement.cs",
-              "RelativeToolTip": "DannZ\\Policies\\OwnsResourceRequirement.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAgAAAAmAAAAAAAAAA==",
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Models\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "DannZ\\Models\\DTO\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Models\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "DannZ\\Models\\DTO\\RegisterDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T15:12:29.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthValidations.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\AuthValidations.cs",
-              "RelativeDocumentMoniker": "DannZ\\AuthValidations.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\AuthValidations.cs",
-              "RelativeToolTip": "DannZ\\AuthValidations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T15:11:37.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Account\\Edit.cshtml",
-              "RelativeDocumentMoniker": "DannZ\\Views\\Account\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Account\\Edit.cshtml",
-              "RelativeToolTip": "DannZ\\Views\\Account\\Edit.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T00:13:46.725Z",
+              "WhenOpened": "2025-07-13T17:20:07.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "DannZ\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "DannZ\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAqwFUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T15:25:14.329Z",
+              "Title": "Create.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Create.js",
+              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Auth\\Create.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Create.js",
+              "RelativeToolTip": "DannZ\\wwwroot\\js\\Auth\\Create.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-13T15:11:53.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Program.cs",
-              "RelativeDocumentMoniker": "DannZ\\Program.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Program.cs",
-              "RelativeToolTip": "DannZ\\Program.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAuwDcAAAAiAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\Api\\AuthController.cs",
+              "RelativeDocumentMoniker": "DannZ\\Controllers\\Api\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\Api\\AuthController.cs",
+              "RelativeToolTip": "DannZ\\Controllers\\Api\\AuthController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwF0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:55:30.126Z",
+              "WhenOpened": "2025-07-13T14:09:22.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "DannZ\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "DannZ\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T14:05:17.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js",
+              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Auth\\Login.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js*",
+              "RelativeToolTip": "DannZ\\wwwroot\\js\\Auth\\Login.js*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-13T14:04:52.854Z",
               "EditorCaption": ""
             }
           ]

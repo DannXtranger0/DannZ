@@ -27,6 +27,7 @@ C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Auth\Create.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\site.js
@@ -49,11 +50,13 @@ C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\EditUser.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Auth\Login.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\favicon.ico
@@ -62,6 +65,9 @@ C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\Auth\Create.js
+wwwroot\js\Auth\Login.js
+wwwroot\js\EditUser.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

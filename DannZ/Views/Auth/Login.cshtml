@@ -5,10 +5,7 @@
     ViewData["Title"] = "Login";
 }
 
-<form asp-action="Login" asp-controller="Auth" method="post" >
-    <div>
-        <p>@(ViewData["EmailError"] ?? "")</p>
-    </div>
+<form method="post" >
     <div>
         <label for="Email">Email</label>
         <input type="email" name="Email" placeholder="example@example.com" id="Email" />
@@ -30,3 +27,5 @@
     <a href="/Auth/Create">Sign Up Here</a>
 
 </form>
+
+<script src="~/js/Auth/Login.js"></script>

@@ -5,7 +5,7 @@
     ViewData["title"] = "Register";
 }
 
-<form method="post" asp-action="Create" enctype="multipart/form-data">
+<form method="post" enctype="multipart/form-data">
 
     <div>
         <label for="Email">Email *</label>
@@ -23,8 +23,8 @@
     </div>
 
     <div>
-        <label for="avatar">Avatar</label>
-        <input type="file" name="avatar" id="avatar" />
+        <label for="Avatar">Avatar</label>
+        <input type="file" name="Avatar" id="Avatar" />
     </div>
 
     <input type="submit" value="Register" />
@@ -32,3 +32,4 @@
     <a href="/Auth/Login">Login Here</a>
 
 </form>
+<script src="~/js/Auth/Create.js"></script>

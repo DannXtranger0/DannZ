@@ -238,3 +238,12 @@ C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\ref\DannZ.dll
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\DannZ.sourcelink.json
 C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\CloudinaryDotNet.dll
 C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\ug1hkklpk3-suo2fwqqij.gz
+C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\DannZ.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\gzg8kza7ls-paujjlezm6.gz
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\w1o8ofjbqg-upmcq5v4e1.gz

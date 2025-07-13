@@ -6,17 +6,19 @@
     ViewData["title"] = "Edit Profile";
 }
 
-<h1>Edit My Profile</h1>
+<h1>Edit My Profile Account</h1>
 
-<h2>Your Information</h2>
 
 <form enctype="multipart/form-data" asp-action="Edit">
 
     <div>
-        <label asp-for="AvatarUrl">Select a Avatar</label>
+        <div>
+            <img  src="@Model.CoverUrl" style="height:300px;width:100%" />
+            <input type="file" accept="image/*" asp-for="CoverUrl" />
+        </div>
         <div>
             <img src="@Model.AvatarUrl" style="width:200px;height:200px" />
-            <input type="file" asp-for="AvatarUrl" />
+            <input type="file" accept="image/*"  asp-for="AvatarUrl" style="width:200px;height:200px" />
         </div>
         
     </div>
@@ -43,4 +45,4 @@
     <button type="submit">Edit ✔</button>
 </form>
 
-
+<script src="~/js/EditUser.js"></script>
