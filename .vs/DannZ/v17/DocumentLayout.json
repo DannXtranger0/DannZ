@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Dann\\source\\repos\\DannZ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\models\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\models\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\account\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\account\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\auth\\create.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\auth\\create.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\auth\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\auth\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\controllers\\api\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\controllers\\api\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\controllers\\feedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\controllers\\feedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\views\\feed\\mainfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\views\\feed\\mainfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,66 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Models\\DTO\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "DannZ\\Models\\DTO\\RegisterDTO.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Models\\DTO\\RegisterDTO.cs",
-              "RelativeToolTip": "DannZ\\Models\\DTO\\RegisterDTO.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T17:20:07.215Z",
+              "Title": "Profile.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Profile.js",
+              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Account\\Profile.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Profile.js",
+              "RelativeToolTip": "DannZ\\wwwroot\\js\\Account\\Profile.js",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-14T01:13:20.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.js",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Create.js",
-              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Auth\\Create.js",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Create.js",
-              "RelativeToolTip": "DannZ\\wwwroot\\js\\Auth\\Create.js",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-13T15:11:53.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\Api\\AuthController.cs",
-              "RelativeDocumentMoniker": "DannZ\\Controllers\\Api\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\Api\\AuthController.cs",
-              "RelativeToolTip": "DannZ\\Controllers\\Api\\AuthController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAgwF0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T14:09:22.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "DannZ\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "DannZ\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "DannZ\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "DannZ\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T14:05:17.82Z",
+              "WhenOpened": "2025-07-14T01:10:30.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.js",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js",
-              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Auth\\Login.js",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js",
-              "RelativeToolTip": "DannZ\\wwwroot\\js\\Auth\\Login.js",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwBsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-13T14:04:52.854Z",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\Api\\AccountController.cs",
+              "RelativeDocumentMoniker": "DannZ\\Controllers\\Api\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\Api\\AccountController.cs",
+              "RelativeToolTip": "DannZ\\Controllers\\Api\\AccountController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswBEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:06:16.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DannZ\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DannZ\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:05:17.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainFeed.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Feed\\MainFeed.cshtml",
+              "RelativeDocumentMoniker": "DannZ\\Views\\Feed\\MainFeed.cshtml",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Feed\\MainFeed.cshtml",
+              "RelativeToolTip": "DannZ\\Views\\Feed\\MainFeed.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T01:02:42.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FeedController.cs",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\FeedController.cs",
+              "RelativeDocumentMoniker": "DannZ\\Controllers\\FeedController.cs",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\FeedController.cs",
+              "RelativeToolTip": "DannZ\\Controllers\\FeedController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T00:52:57.482Z",
               "EditorCaption": ""
             }
           ]

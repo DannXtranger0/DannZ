@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DannZ.Controllers
 {
-    public class PostsController : Controller
+    public class FeedController : Controller
     {
         [Authorize]
         public IActionResult MainFeed()
@@ -11,10 +11,10 @@ namespace DannZ.Controllers
             return View();
         }
 
-        [Authorize("Admin")]
-        public IActionResult Posts()
-        {
-            return View();
-        }
+        //[Authorize("Admin")]
+        //public IActionResult Posts()
+        //{
+        //    return View();
+        //}
     }
 }

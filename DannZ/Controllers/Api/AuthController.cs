@@ -121,6 +121,12 @@ namespace DannZ.Controllers.Api
 
         }
 
+        [HttpPost("Logout")]
+        public async Task<ActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return Ok(new { message = "Logout Succesfully" });
+        }
         private async Task<List<Claim>> GetUserClaims(int roleId)
         {
             var userClaims = await _context.RolePermissions

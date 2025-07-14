@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\CoverDefault.jpg",
+      "PackagePath": "staticwebassets\\images\\CoverDefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\userDefault.png",
+      "PackagePath": "staticwebassets\\images\\userDefault.png"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Profile.js",
+      "PackagePath": "staticwebassets\\js\\Account\\Profile.js"
+    },
+    {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Create.js",
       "PackagePath": "staticwebassets\\js\\Auth\\Create.js"
     },

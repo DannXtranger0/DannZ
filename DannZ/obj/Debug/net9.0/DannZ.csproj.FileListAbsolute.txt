@@ -157,7 +157,6 @@ C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\scopedcss\bundle\DannZ.s
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\scopedcss\projectbundle\DannZ.bundle.scp.css
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\rlw8zk1gms-b9sayid5wm.gz
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\y4z6t9r8y7-61n19gt1b8.gz
-C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\jq26zstfrd-xtxxf3hu2r.gz
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\jsm9n7hh2z-bqjiyaj88i.gz
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\fodf2e7gy7-c2jlpeoesf.gz
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\rkegbn0w1l-erw9l3u2r3.gz
@@ -246,4 +245,6 @@ C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\Swashbuckle.AspNetCore.S
 C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\DannZ.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\gzg8kza7ls-paujjlezm6.gz
-C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\w1o8ofjbqg-upmcq5v4e1.gz
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\jq26zstfrd-pu7hf7wjlc.gz
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\w1o8ofjbqg-qsnqk30dgl.gz
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\cr8ivu9a26-7yrz26n2vo.gz

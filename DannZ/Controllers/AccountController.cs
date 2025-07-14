@@ -10,50 +10,37 @@ namespace DannZ.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly MyDbContext _context;
-        public AccountController(MyDbContext context)
+        public IActionResult Profile(int? id)
         {
-            _context = context;
-        }
-        public async Task<IActionResult> Profile(int? id)
-        {
-            if (id == null)
-                return NotFound();
-
-            var account = await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
-
-            if (account == null)
-                return NotFound();
-
-            return View(account);
+            return View(id);
         }
 
-        [Authorize(Policy = "OwnsProfile")]
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-                return NotFound();
+        //[Authorize(Policy = "OwnsProfile")]
+        //public async Task<IActionResult> Edit(int? id)
+        //{
+        //    if (id == null)
+        //        return NotFound();
 
-            var account = await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
+        //    var account = await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
 
-            if (account == null)
-                return NotFound();
+        //    if (account == null)
+        //        return NotFound();
 
-            return View(account);
-        }
+        //    return View(account);
+        //}
 
-        [HttpPost]
-        public async Task<IActionResult> Edit(RegisterDTO model)
-        {
-            if (ModelState.IsValid)
-            {
-                var user = await _context.Users.FirstOrDefaultAsync(x => x.Id == model.Id);
+        //[HttpPost]
+        //public async Task<IActionResult> Edit(RegisterDTO model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var user = await _context.Users.FirstOrDefaultAsync(x => x.Id == model.Id);
 
                 
-            } 
-            return View(model);
+        //    } 
+        //    return View(model);
 
-        }
+        //}
 
 
     }

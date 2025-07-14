@@ -1,4 +1,25 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿let logOutButton = document.getElementById("logOutButton");
 
-// Write your JavaScript code.
+document.addEventListener("DOMContentLoaded", () => {
+    if(logOutButton!=null)
+        logOutButton.addEventListener("click",logout)
+})
+
+async function logout() {
+    try {
+        let response = await fetch("https://localhost:7238/api/Auth/Logout", {
+            method: "POST",
+            credentials: "include"
+        });
+
+        if(!response.ok)
+            throw new Error(response.message ?? "Unknow error");
+
+        let result = await response.json();
+        console.log(result);
+
+    } catch (err) {
+        console.log(err);
+    }
+    
+}

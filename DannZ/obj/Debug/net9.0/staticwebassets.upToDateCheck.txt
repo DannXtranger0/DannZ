@@ -20,6 +20,7 @@ C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery-validation-unobtrusive
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Account\Profile.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
@@ -65,6 +66,9 @@ C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\CoverDefault.jpg
+wwwroot\images\userDefault.png
+wwwroot\js\Account\Profile.js
 wwwroot\js\Auth\Create.js
 wwwroot\js\Auth\Login.js
 wwwroot\js\EditUser.js

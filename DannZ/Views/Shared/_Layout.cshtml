@@ -10,11 +10,10 @@
     <header>
         <nav>
             @if(User.Identity?.IsAuthenticated ?? false){
-                <form asp-action="Logout" asp-controller="Auth" method="post">
-                    <button type="submit">Log Out</button>
-                </form>
+                
+                <button id="logOutButton">Log Out</button>
 
-                <a asp-controller="Account" asp-action="Profile" asp-route-id="@(User.FindFirst("userId")?.Value)">Profile</a>
+                <a href="/Account/Profile/@(User.FindFirst("userId")?.Value)">Profile</a>
 
             }
         </nav>

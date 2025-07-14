@@ -1,17 +1,20 @@
-﻿@model User
-@*
+﻿@*
     THIS IS THE PROFILE VIEW
 *@
-
+@model int
 @{
     ViewData["title"] = "Profile";
 }
-<h1>My Profile</h1>
+<h1>Profile</h1>
 
-<p>@Model.Name</p>
-<p>@Model.Email</p>
+<img src="/images/CoverDefault.jpg" id="CoverUrl" />
+<img src="/images/userDefault.png" id="AvatarUrl" />
 
-@if (Model.Id.ToString() == User.FindFirst("userId")?.Value.ToString())
-{
-    <a asp-action="Edit" asp-route-id="@User.FindFirst("userId")?.Value">Edit Profile</a>
-}
+<p id="Name">@* @Model.Name *@</p>
+<p id="Biography">There is no Biography</p>
+
+<p hidden id="userId" data-id="@Model"></p>
+
+<a hidden id="anchorEditProfile" data-id="@User.FindFirst("userId")?.Value" asp-action="Edit" asp-route-id="@User.FindFirst("userId")?.Value">Edit Profile</a>
+
+ <script src="~/js/Account/Profile.js"></script>

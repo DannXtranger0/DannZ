@@ -26,7 +26,8 @@ async function login(event) {
         }
 
         let result = await  response.json();
-        console.log(result);
+
+        window.location.href = "/Feed/MainFeed";
     } catch (err) {
         console.log(err);
     }
