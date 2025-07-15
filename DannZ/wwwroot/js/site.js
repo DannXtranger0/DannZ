@@ -7,16 +7,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function logout() {
     try {
-        let response = await fetch("https://localhost:7238/api/Auth/Logout", {
+        let response = await fetch("https://localhost:7238/api/AuthApi/Logout", {
             method: "POST",
             credentials: "include"
         });
 
-        if(!response.ok)
-            throw new Error(response.message ?? "Unknow error");
+        if (!response.ok)
+            throw new Error(response.statusText ?? "Unknow error");
 
         let result = await response.json();
-        console.log(result);
+        window.location.href = "/";
 
     } catch (err) {
         console.log(err);

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DannZ.Models.DTO
+namespace DannZ.Models.DTO.Account
 {
     public class EditUserDTO
     {
@@ -11,7 +11,7 @@ namespace DannZ.Models.DTO
         public string Email { get; set; }
         [Required]
         public string Password { get; set; }
-        public string? AvatarUrl { get; set; }
-        public string? CoverUrl { get; set; }
+        public IFormFile? AvatarUrl  { get; set; }
+        public IFormFile? CoverUrl { get; set; }
     }
 }

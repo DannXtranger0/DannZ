@@ -5,14 +5,14 @@ let profileId = separatedRoute.at(separatedRoute.length - 1);
 
 //Look for the data while the page is loading
 
-asignData();
 async function BringProfileData() {
     try {
-        let response = await fetch(`https://localhost:7238/api/Account/Profile/${profileId}`);
+        let response = await fetch(`https://localhost:7238/api/AccountApi/Profile/${profileId}`);
         if (!response.ok)
             throw new Error(response.status ?? "Unknown Message");
 
         let result = await response.json();
+        console.log(result);
         return result;
 
     } catch (err) {
@@ -20,15 +20,10 @@ async function BringProfileData() {
     }
 }
 
-async function asignData() {
-    let profileData = await BringProfileData();
-    return profileData;
-}
 
 document.addEventListener("DOMContentLoaded", setData);
 async function setData() {
-
-    profileData = await asignData();
+    profileData = await BringProfileData();
 
     let nameField = document.getElementById("Name");
     let biographyField = document.getElementById("Biography");

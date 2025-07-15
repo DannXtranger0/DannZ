@@ -12,9 +12,8 @@ namespace DannZ.Models
         [Required]
         public string Password { get; set; }
         public string? Biography { get; set; }
-        public string? AvatarUrl { get; set; }
-        public string? CoverUrl { get; set; }
         public int RoleId { get; set; }
-        public Role Role { get; set; }
+        public virtual UserProfileImages? UserProfileImages { get; set; }
+        public virtual Role? Role { get; set; }
     }
 }

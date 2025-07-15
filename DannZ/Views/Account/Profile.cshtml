@@ -15,6 +15,6 @@
 
 <p hidden id="userId" data-id="@Model"></p>
 
-<a hidden id="anchorEditProfile" data-id="@User.FindFirst("userId")?.Value" asp-action="Edit" asp-route-id="@User.FindFirst("userId")?.Value">Edit Profile</a>
+<a hidden id="anchorEditProfile" data-id="@User.FindFirst("userId")?.Value" asp-action="Edit" asp-controller="Account" asp-route-id="@User.FindFirst("userId")?.Value">Edit Profile</a>
 
  <script src="~/js/Account/Profile.js"></script>

@@ -9,7 +9,7 @@ async function  registerAccount(event) {
 
     try {
 
-    let response = await fetch("https://localhost:7238/api/Auth/Create", {
+    let response = await fetch("https://localhost:7238/api/AuthApi/Create", {
         method: "POST",
         body: formData,
         credentials: 'include'

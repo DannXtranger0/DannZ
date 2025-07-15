@@ -10,24 +10,14 @@ namespace DannZ.Controllers
 {
     public class AccountController : Controller
     {
-        public IActionResult Profile(int? id)
-        {
-            return View(id);
-        }
+        [HttpGet]
+        public IActionResult Profile(int? id) => View(id);
 
-        //[Authorize(Policy = "OwnsProfile")]
-        //public async Task<IActionResult> Edit(int? id)
-        //{
-        //    if (id == null)
-        //        return NotFound();
 
-        //    var account = await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
+        [Authorize(Policy = "OwnsProfile")]
+        [HttpGet]
+        public  IActionResult Edit(int? id )  => View();
 
-        //    if (account == null)
-        //        return NotFound();
-
-        //    return View(account);
-        //}
 
         //[HttpPost]
         //public async Task<IActionResult> Edit(RegisterDTO model)
@@ -36,7 +26,7 @@ namespace DannZ.Controllers
         //    {
         //        var user = await _context.Users.FirstOrDefaultAsync(x => x.Id == model.Id);
 
-                
+
         //    } 
         //    return View(model);
 

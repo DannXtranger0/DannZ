@@ -16,14 +16,14 @@ namespace DannZ.Controllers.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    public class AuthApiController : ControllerBase
     {
         private readonly IConfiguration _configuration;
         private readonly Cloudinary _cloudinary;
         private AuthValidations _validations;
         private MyDbContext _context;
         private string cookieName;
-        public AuthController(MyDbContext context, Cloudinary cloudinary, IConfiguration configuration)
+        public AuthApiController(MyDbContext context, Cloudinary cloudinary, IConfiguration configuration)
         {
             _cloudinary = cloudinary;
             _configuration = configuration;
@@ -77,28 +77,35 @@ namespace DannZ.Controllers.Api
             {
                 Name = model.Name,
                 Email = model.Email,
-                Password = password
+                Password = password,
+                RoleId = 2
+
             };
+
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+
 
             if (model.Avatar != null)
             {
                 var uploadParams = new ImageUploadParams
                 {
-
                     File = new FileDescription(model.Avatar.FileName, model.Avatar.OpenReadStream()),
                     AssetFolder = "Avatars"
                 };
                 var uploadResult = await _cloudinary.UploadAsync(uploadParams);
 
-                user.AvatarUrl = uploadResult.SecureUrl.ToString();
+                //saving the avatar of the user in the corresponding table with neccesary data
+                UserProfileImages uProfileImage = new UserProfileImages
+                {
+                    UserId = user.Id,
+                    AvatarUrl = uploadResult.SecureUrl.ToString(),
+                    AvatarPublicId = uploadResult.PublicId
+                };
+
+                _context.UserProfileImages.Add(uProfileImage);
+                await _context.SaveChangesAsync();
             }
-
-            //Assign permissions
-            _context.Users.Add(user);
-
-            user.RoleId = 2;
-
-            await _context.SaveChangesAsync();
 
             //obtener las claims del usuario
             var claimList = await GetUserClaims(user.RoleId);
@@ -107,7 +114,6 @@ namespace DannZ.Controllers.Api
             claimList.Add(new Claim("userId", user.Id.ToString()));
 
             var identity = new ClaimsIdentity(claimList, cookieName);
-
 
             //crear principal 
             var principal = new ClaimsPrincipal(identity);

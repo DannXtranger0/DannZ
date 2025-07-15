@@ -13,7 +13,7 @@ async function login(event) {
 
     try {
 
-        let response = await fetch("https://localhost:7238/api/Auth", {
+        let response = await fetch("https://localhost:7238/api/AuthApi", {
             method: 'POST',
             headers: {
                 'Content-Type': "application/json"

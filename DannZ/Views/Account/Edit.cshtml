@@ -1,48 +1,46 @@
-﻿@model User
-@*
+﻿@*
         VIEW FOR EDITING THE PROFILE DATA
 *@
 @{
-    ViewData["title"] = "Edit Profile";
 }
 
 <h1>Edit My Profile Account</h1>
 
 
-<form enctype="multipart/form-data" asp-action="Edit">
+<form enctype="multipart/form-data" method="post">
 
     <div>
         <div>
-            <img  src="@Model.CoverUrl" style="height:300px;width:100%" />
-            <input type="file" accept="image/*" asp-for="CoverUrl" />
+            <img style="height:300px;width:100%" src="/images/CoverDefault.jpg" id="cover" />
+            <input type="file" accept="image/*" name="CoverUrl" />
         </div>
         <div>
-            <img src="@Model.AvatarUrl" style="width:200px;height:200px" />
-            <input type="file" accept="image/*"  asp-for="AvatarUrl" style="width:200px;height:200px" />
+            <img style="width:200px;height:200px" src="/images/userDefault.png" id="avatar" />
+            <input type="file" accept="image/*"  name="AvatarUrl"  />
         </div>
         
     </div>
     <div>
-        <label asp-for="Name"></label>    
-        <input type="text" asp-for="Name" />
+        <label for="Name">Name</label>    
+        <input type="text" name="Name"/>
     </div>
     
     <div>
-        <label asp-for="Email"></label>
-        <input type="text" asp-for="Email" />
+        <label for="Email">Email</label>
+        <input type="text" name="Email" />
     </div>
 
     <div>
-        <label asp-for="Password"></label>
-        <input type="text" asp-for="Password" />
+        <label for="Password">Password</label>
+        <input type="text" name="Password" />
     </div>
 
-    <div>
-        <label asp-for="Biography"></label>
-        <textarea asp-for="Biography" placeholder="Living The Life 🔥"></textarea>
+@*     <div>
+        <label name="Biography"></label>
+        <textarea name="Biography" placeholder="Living The Life 🔥"></textarea>
     </div>
-
+ *@
     <button type="submit">Edit ✔</button>
 </form>
 
-<script src="~/js/EditUser.js"></script>
+<script src="~/js/Account/Edit.js"></script>

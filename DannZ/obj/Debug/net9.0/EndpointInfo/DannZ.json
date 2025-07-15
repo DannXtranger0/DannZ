@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Account/Profile/{id}": {
+    "/api/AccountApi/Profile/{id}": {
       "get": {
         "tags": [
-          "Account"
+          "AccountApi"
         ],
         "parameters": [
           {
@@ -45,10 +45,89 @@
         }
       }
     },
-    "/api/Auth": {
+    "/api/AccountApi/Edit/{id}": {
       "post": {
         "tags": [
-          "Auth"
+          "AccountApi"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "Email",
+                  "Name",
+                  "Password"
+                ],
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  },
+                  "AvatarUrl": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "CoverUrl": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                },
+                "AvatarUrl": {
+                  "style": "form"
+                },
+                "CoverUrl": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/AuthApi": {
+      "post": {
+        "tags": [
+          "AuthApi"
         ],
         "requestBody": {
           "content": {
@@ -76,10 +155,10 @@
         }
       }
     },
-    "/api/Auth/Create": {
+    "/api/AuthApi/Create": {
       "post": {
         "tags": [
-          "Auth"
+          "AuthApi"
         ],
         "requestBody": {
           "content": {
@@ -138,10 +217,10 @@
         }
       }
     },
-    "/api/Auth/Logout": {
+    "/api/AuthApi/Logout": {
       "post": {
         "tags": [
-          "Auth"
+          "AuthApi"
         ],
         "responses": {
           "200": {
@@ -268,7 +347,35 @@
             "type": "string",
             "nullable": true
           },
+          "roleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userProfileImages": {
+            "$ref": "#/components/schemas/UserProfileImages"
+          },
+          "role": {
+            "$ref": "#/components/schemas/Role"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserProfileImages": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "avatarUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "avatarPublicId": {
             "type": "string",
             "nullable": true
           },
@@ -276,12 +383,12 @@
             "type": "string",
             "nullable": true
           },
-          "roleId": {
-            "type": "integer",
-            "format": "int32"
+          "coverPublicId": {
+            "type": "string",
+            "nullable": true
           },
-          "role": {
-            "$ref": "#/components/schemas/Role"
+          "user": {
+            "$ref": "#/components/schemas/User"
           }
         },
         "additionalProperties": false

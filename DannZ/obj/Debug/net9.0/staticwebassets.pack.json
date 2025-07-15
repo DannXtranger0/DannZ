@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\userDefault.png"
     },
     {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Edit.js",
+      "PackagePath": "staticwebassets\\js\\Account\\Edit.js"
+    },
+    {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Profile.js",
       "PackagePath": "staticwebassets\\js\\Account\\Profile.js"
     },
@@ -31,10 +35,6 @@
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js",
       "PackagePath": "staticwebassets\\js\\Auth\\Login.js"
-    },
-    {
-      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\EditUser.js",
-      "PackagePath": "staticwebassets\\js\\EditUser.js"
     },
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\site.js",

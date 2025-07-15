@@ -1,8 +1,111 @@
 [
   {
-    "ContainingType": "DannZ.Controllers.Api.AccountController",
+    "ContainingType": "DannZ.Controllers.Api.AccountApiController",
+    "Method": "UploadImage",
+    "RelativePath": "api/AccountApi",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "user",
+        "Type": "DannZ.Models.User",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AvatarUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "CoverUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DannZ.Controllers.Api.AccountApiController",
+    "Method": "Edit",
+    "RelativePath": "api/AccountApi/Edit/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AvatarUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "CoverUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannZ.Controllers.Api.AccountApiController",
     "Method": "Profile",
-    "RelativePath": "api/Account/Profile/{id}",
+    "RelativePath": "api/AccountApi/Profile/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -26,9 +129,9 @@
     ]
   },
   {
-    "ContainingType": "DannZ.Controllers.Api.AuthController",
+    "ContainingType": "DannZ.Controllers.Api.AuthApiController",
     "Method": "Login",
-    "RelativePath": "api/Auth",
+    "RelativePath": "api/AuthApi",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -42,9 +145,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DannZ.Controllers.Api.AuthController",
+    "ContainingType": "DannZ.Controllers.Api.AuthApiController",
     "Method": "Create",
-    "RelativePath": "api/Auth/Create",
+    "RelativePath": "api/AuthApi/Create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -78,9 +181,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DannZ.Controllers.Api.AuthController",
+    "ContainingType": "DannZ.Controllers.Api.AuthApiController",
     "Method": "Logout",
-    "RelativePath": "api/Auth/Logout",
+    "RelativePath": "api/AuthApi/Logout",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
