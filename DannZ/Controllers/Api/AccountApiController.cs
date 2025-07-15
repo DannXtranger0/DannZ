@@ -4,6 +4,7 @@ using DannZ.Context;
 using DannZ.Models;
 using DannZ.Models.DTO;
 using DannZ.Models.DTO.Account;
+using DannZ.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -16,18 +17,19 @@ namespace DannZ.Controllers.Api
     [ApiController]
     public class AccountApiController : ControllerBase
     {
+        private readonly IUploadProfileImageService _uploadProfileImageService;
         private readonly IConfiguration _configuration;
         private readonly Cloudinary _cloudinary;
-        private AuthValidations _validations;
         private MyDbContext _context;
-        private string cookieName; 
-        public AccountApiController(MyDbContext context, Cloudinary cloudinary, IConfiguration configuration)
+        private string cookieName;
+        private AccountController _accountController;
+        public AccountApiController(MyDbContext context, Cloudinary cloudinary, IConfiguration configuration, IUploadProfileImageService uploadProfileImageService)
         {
             _cloudinary = cloudinary;
             _configuration = configuration;
             _context = context;
             cookieName = _configuration.GetValue<string>("CookieName")!;
-            _validations = new AuthValidations(_context);
+            _uploadProfileImageService = uploadProfileImageService;
         }
 
         [HttpGet("Profile/{id}")]
@@ -66,9 +68,9 @@ namespace DannZ.Controllers.Api
         }
 
 
-        [HttpPost("Edit/{id}")]
+        [HttpPut("Edit/{id}")]
         [Authorize(Policy = "OwnsProfile")]
-        public async Task<IActionResult> Edit([FromForm] EditUserDTO model)
+        public async Task<ActionResult> Edit([FromForm] EditUserDTO model)
         {
             if (!ModelState.IsValid)
                 return BadRequest("Fill The Fields Correctly");
@@ -90,13 +92,13 @@ namespace DannZ.Controllers.Api
 
             if (model.AvatarUrl != null)
             {
-                await UploadImage("Avatar", user, model);
+                await _uploadProfileImageService.UploadImage("Avatar", user, model);
                 await _context.SaveChangesAsync();
             }
             
             if (model.CoverUrl != null)
             {
-                await UploadImage("Cover", user, model);
+                await _uploadProfileImageService.UploadImage("Cover", user, model);
                 await _context.SaveChangesAsync();
             }
         
@@ -106,82 +108,20 @@ namespace DannZ.Controllers.Api
 
         }
 
-        public async Task UploadImage(string imageType, User user, EditUserDTO model)
+        [HttpPatch("Edit/Bio/{id}")]
+        [Authorize(Policy = "OwnsProfile")]
+        public async Task<ActionResult> EditBio(int id, [FromBody] string newBio)
         {
-            if (imageType == "Avatar")
-            {
-                //Create the new Avatar
-                var uploadParams = new ImageUploadParams
-                {
-                    File = new FileDescription(model?.AvatarUrl!.FileName, model.AvatarUrl!.OpenReadStream()),
-                    AssetFolder = "Avatars"
-                };
-                var uploadResult = await _cloudinary.UploadAsync(uploadParams);
+            var user = await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
 
-                //Delete the old Avatar
-                if (user.UserProfileImages.AvatarUrl != null)
-                {
-                    var deleteParams = new DeletionParams(user.UserProfileImages.AvatarPublicId);
-                    var deleteResult = await _cloudinary.DestroyAsync(deleteParams);
+            if (user == null)
+                return NotFound("This User Doesn't Exist");
 
-                    user.UserProfileImages.AvatarUrl = uploadResult.SecureUrl.ToString();
-                    user.UserProfileImages.AvatarPublicId = uploadResult.PublicId.ToString();
-                }
-                else if (user.UserProfileImages.CoverUrl != null && user.UserProfileImages.AvatarUrl== null)
-                {
-                    //Assign the new Avatar to the user
-                    user.UserProfileImages.CoverUrl = uploadResult.SecureUrl.ToString();
-                    user.UserProfileImages.CoverPublicId = uploadResult.PublicId.ToString();
-                }
-                else
-                {
-                    //Assign the new Avatar to the user
-                    var uProfileImages = new UserProfileImages
-                    {
-                        UserId = user.Id,
-                        AvatarUrl = uploadResult.SecureUrl.ToString(),
-                        AvatarPublicId = uploadResult.PublicId.ToString(),
-                    };
-                    _context.UserProfileImages.Add(uProfileImages);
-                }
-            }
-            else if (imageType == "Cover")
-            {
-                //Create the new Avatar
-                var uploadParams = new ImageUploadParams
-                {
-                    File = new FileDescription(model?.CoverUrl!.FileName, model?.CoverUrl!.OpenReadStream()),
-                    AssetFolder = "Covers"
-                };
-                var uploadResult = await _cloudinary.UploadAsync(uploadParams);
+            user.Biography = newBio;
 
-                //Delete the old Avatar
-                if (user.UserProfileImages?.CoverUrl!= null)
-                {
-                    var deleteParams = new DeletionParams(user.UserProfileImages.CoverPublicId);
-                    var deleteResult = await _cloudinary.DestroyAsync(deleteParams);
+            await _context.SaveChangesAsync();
 
-                    user.UserProfileImages.CoverUrl= uploadResult.SecureUrl.ToString();
-                    user.UserProfileImages.CoverPublicId= uploadResult.PublicId.ToString();
-                }
-                else if(user.UserProfileImages.AvatarUrl !=null && user.UserProfileImages.CoverUrl==null)
-                {
-                    //Assign the new Avatar to the user
-                    user.UserProfileImages.CoverUrl = uploadResult.SecureUrl.ToString();
-                    user.UserProfileImages.CoverPublicId = uploadResult.PublicId.ToString();
-                }
-                else
-                {
-                    var uProfileImages = new UserProfileImages
-                    {
-                        UserId = user.Id,
-                        CoverUrl = uploadResult.SecureUrl.ToString(),
-                        CoverPublicId= uploadResult.PublicId.ToString(),
-                    };
-                    _context.UserProfileImages.Add(uProfileImages);
-
-                }
-            }
+            return Ok(new { message = "Biography Updated Successfully" });
         }
     }
 }

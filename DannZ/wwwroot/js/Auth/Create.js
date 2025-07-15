@@ -24,6 +24,8 @@ async function  registerAccount(event) {
         const data = await response.json();
         console.log(data);
 
+        window.location.href = "/Feed/MainFeed";
+
     } catch (err) {
         console.log(err);
     }

@@ -6,6 +6,7 @@ using CloudinaryDotNet;
 using DannZ.Policies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
+using DannZ.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -58,9 +59,10 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("Admin", policy => policy.RequireClaim("permission", "IsAdmin"));
     options.AddPolicy("OwnsProfile", policy => policy.Requirements.Add(new OwnsResourceRequirement("User")));
 });
-//para que nuestro requerimiento personalizado pueda ser leido
-builder.Services.AddScoped<IAuthorizationHandler, OwnsResourceHandler>();
 
+//para que .net haga inyección de dependencias automaticamente
+builder.Services.AddScoped<IAuthorizationHandler, OwnsResourceHandler>();
+builder.Services.AddScoped<IUploadProfileImageService, UploadProfileImageService>();
 
 var app = builder.Build();
 

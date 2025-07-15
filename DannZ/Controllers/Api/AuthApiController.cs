@@ -20,7 +20,6 @@ namespace DannZ.Controllers.Api
     {
         private readonly IConfiguration _configuration;
         private readonly Cloudinary _cloudinary;
-        private AuthValidations _validations;
         private MyDbContext _context;
         private string cookieName;
         public AuthApiController(MyDbContext context, Cloudinary cloudinary, IConfiguration configuration)
@@ -29,7 +28,6 @@ namespace DannZ.Controllers.Api
             _configuration = configuration;
             _context = context;
             cookieName = _configuration.GetValue<string>("CookieName")!;
-            _validations = new AuthValidations(_context);
         }
        
         [HttpPost]

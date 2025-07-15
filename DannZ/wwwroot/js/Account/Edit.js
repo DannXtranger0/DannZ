@@ -58,7 +58,7 @@ async function saveChanges(event) {
 
     try {
         let response = await fetch(`https://localhost:7238/api/AccountApi/Edit/${userId}`, {
-            method: 'POST',
+            method: 'PUT',
             body: formData,
             credentials: 'include'
         });

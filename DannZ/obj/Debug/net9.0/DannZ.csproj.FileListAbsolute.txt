@@ -244,7 +244,7 @@ C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\Swashbuckle.AspNetCore.S
 C:\Users\Dann\source\repos\DannZ\DannZ\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\DannZ.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\w1o8ofjbqg-rvna0p0lkm.gz
-C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\gzg8kza7ls-dtbpoqq3xt.gz
 C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\jq26zstfrd-4b09o932is.gz
-C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\cr8ivu9a26-ae21cpaufw.gz
-C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\ubhhhg6sk1-inxne6n8ob.gz
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\gzg8kza7ls-o7431fjjh1.gz
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\cr8ivu9a26-0iyvbjtbch.gz
+C:\Users\Dann\source\repos\DannZ\DannZ\obj\Debug\net9.0\compressed\ubhhhg6sk1-wq973ltgfu.gz

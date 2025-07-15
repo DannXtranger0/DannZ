@@ -46,7 +46,7 @@
       }
     },
     "/api/AccountApi/Edit/{id}": {
-      "post": {
+      "put": {
         "tags": [
           "AccountApi"
         ],
@@ -113,6 +113,48 @@
                 "CoverUrl": {
                   "style": "form"
                 }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/AccountApi/Edit/Bio/{id}": {
+      "patch": {
+        "tags": [
+          "AccountApi"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
               }
             }
           }

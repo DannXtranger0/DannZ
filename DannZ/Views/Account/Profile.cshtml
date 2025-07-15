@@ -11,10 +11,14 @@
 <img src="/images/userDefault.png" id="AvatarUrl" />
 
 <p id="Name">@* @Model.Name *@</p>
-<p id="Biography">There is no Biography</p>
+
+<div id="profileContainer" hidden>
+    <button id="btnEditBio">Edit Bio</button>
+</div>
+<input id="Biography" value="There is no Biography" disabled />
 
 <p hidden id="userId" data-id="@Model"></p>
 
-<a hidden id="anchorEditProfile" data-id="@User.FindFirst("userId")?.Value" asp-action="Edit" asp-controller="Account" asp-route-id="@User.FindFirst("userId")?.Value">Edit Profile</a>
+<a hidden id="anchorEditProfile" data-id="@User.FindFirst("userId")?.Value" asp-action="Edit" asp-controller="Account" asp-route-id="@User.FindFirst("userId")?.Value">Configure Account</a>
 
  <script src="~/js/Account/Profile.js"></script>
