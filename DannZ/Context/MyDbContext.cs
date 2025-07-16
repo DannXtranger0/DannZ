@@ -16,9 +16,34 @@ namespace DannZ.Context
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<RolePermission> RolePermissions { get; set; }
         public DbSet<UserProfileImages> UserProfileImages { get; set; }
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<MediaContent> MediaContent { get; set; }
+        public DbSet<CommentPost> CommentPosts { get; set; }
+        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //Relationship n to n bettwen users, posts and comments
+            modelBuilder.Entity<CommentPost>()
+                .HasOne(cp => cp.Post)
+                .WithMany(p => p.Comment_Posts)
+                .HasForeignKey(cp => cp.PostId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<CommentPost>()
+                .HasOne(cp=> cp.User)
+                .WithMany(u=> u.CommentsPosts)
+                .HasForeignKey(cp=>cp.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+
+            //Relationship n to 1 between posts and users
+            modelBuilder.Entity<Post>()
+                .HasOne(p => p.User)
+                .WithMany(u => u.Posts)
+                .HasForeignKey(p => p.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
             modelBuilder.Entity<RolePermission>().HasKey(rp => new {rp.RoleId,rp.PermissionId});
             //Relationship 1 to 1 between userProfileImages and User
             modelBuilder.Entity<User>()

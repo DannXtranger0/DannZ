@@ -15,5 +15,8 @@ namespace DannZ.Models
         public int RoleId { get; set; }
         public virtual UserProfileImages? UserProfileImages { get; set; }
         public virtual Role? Role { get; set; }
+        public virtual ICollection<Post>? Posts { get; set; }
+        public virtual ICollection<CommentPost>? CommentsPosts { get; set; }
+
     }
 }
