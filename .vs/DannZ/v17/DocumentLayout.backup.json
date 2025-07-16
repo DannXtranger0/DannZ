@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 142,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -47,8 +47,7 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-15T13:28:28.992Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -61,8 +60,11 @@
               "ViewState": "AgIAAEkAAAAAAAAAAAAAAFIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-15T13:29:09.447Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -72,14 +74,10 @@
               "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Account\\Edit.js",
               "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Edit.js",
               "RelativeToolTip": "DannZ\\wwwroot\\js\\Account\\Edit.js",
-              "ViewState": "AgIAACwAAAAAAAAAAAAiwDsAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-15T17:41:20.006Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -91,8 +89,7 @@
               "RelativeToolTip": "DannZ\\Controllers\\Api\\AccountApiController.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAAgwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:52:05.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T15:52:05.205Z"
             },
             {
               "$type": "Document",
@@ -104,8 +101,7 @@
               "RelativeToolTip": "DannZ\\Controllers\\Api\\AuthApiController.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAYwBQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:51:27.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T15:51:27.415Z"
             },
             {
               "$type": "Document",
