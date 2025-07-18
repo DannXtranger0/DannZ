@@ -1,6 +1,11 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-    <h1>This is the main feed</h1>
-}
+﻿    <main id="mainFeed">
+        <h1>This is the main feed</h1>
+        @Html.Partial("_UploadPost")
+  
+
+        
+    </main>
+
+
+    @* <script src="~/js/Poskt/Create.js"></script> *@
+    <script src="~/js/Post/FeedPost.js"></script>

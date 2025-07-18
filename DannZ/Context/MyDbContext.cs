@@ -17,12 +17,20 @@ namespace DannZ.Context
         public DbSet<RolePermission> RolePermissions { get; set; }
         public DbSet<UserProfileImages> UserProfileImages { get; set; }
         public DbSet<Post> Posts { get; set; }
-        public DbSet<MediaContent> MediaContent { get; set; }
+        public DbSet<MediaContentPosts> MediaContentPost { get; set; }
         public DbSet<CommentPost> CommentPosts { get; set; }
         
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //Relationship n to 1 between mediaContentPost and Post
+            modelBuilder.Entity<MediaContentPosts>()
+                .HasOne(mc => mc.Post)
+                .WithMany(p => p.MediaContents)
+                .HasForeignKey(mc => mc.PostId)
+                .OnDelete(DeleteBehavior.Cascade);
+                
+
             //Relationship n to n bettwen users, posts and comments
             modelBuilder.Entity<CommentPost>()
                 .HasOne(cp => cp.Post)
@@ -54,6 +62,8 @@ namespace DannZ.Context
             modelBuilder.ApplyConfiguration(new RoleSeeds());
             modelBuilder.ApplyConfiguration(new PermissionSeeds());
             modelBuilder.ApplyConfiguration(new RolesPermissionsSeeds());
+            modelBuilder.ApplyConfiguration(new UserSeeds());
+            modelBuilder.ApplyConfiguration(new PostSeeds());
 
         }
 

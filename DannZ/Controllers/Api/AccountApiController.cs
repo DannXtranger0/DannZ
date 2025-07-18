@@ -52,8 +52,8 @@ namespace DannZ.Controllers.Api
                     Id = account.Id,
                     Name = account.Name,
                     Email = account.Email,
-                    AvatarUrl = account.UserProfileImages!.AvatarUrl,
-                    CoverUrl= account.UserProfileImages.CoverUrl,
+                    AvatarUrl = account.UserProfileImages?.AvatarUrl,
+                    CoverUrl= account.UserProfileImages?.CoverUrl,
                     Biography = account.Biography
                 };
 

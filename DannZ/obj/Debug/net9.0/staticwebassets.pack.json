@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\images\\CoverDefault.jpg"
     },
     {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\emojie.png",
+      "PackagePath": "staticwebassets\\images\\emojie.png"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\multimedia.png",
+      "PackagePath": "staticwebassets\\images\\multimedia.png"
+    },
+    {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\userDefault.png",
       "PackagePath": "staticwebassets\\images\\userDefault.png"
     },
@@ -35,6 +43,14 @@
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js",
       "PackagePath": "staticwebassets\\js\\Auth\\Login.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js",
+      "PackagePath": "staticwebassets\\js\\Post\\Create.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\FeedPost.js",
+      "PackagePath": "staticwebassets\\js\\Post\\FeedPost.js"
     },
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\site.js",

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DannZ.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20250716154329_initial")]
-    partial class initial
+    [Migration("20250718025617_modifiymediaContent")]
+    partial class modifiymediaContent
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -52,7 +52,7 @@ namespace DannZ.Migrations
                     b.ToTable("CommentPosts");
                 });
 
-            modelBuilder.Entity("DannZ.Models.MediaContent", b =>
+            modelBuilder.Entity("DannZ.Models.MediaContentPosts", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -68,16 +68,17 @@ namespace DannZ.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TargetId")
+                    b.Property<int>("PostId")
                         .HasColumnType("int");
 
-                    b.Property<string>("TargetType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("isVideo")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 
-                    b.ToTable("MediaContent");
+                    b.HasIndex("PostId");
+
+                    b.ToTable("MediaContentPost");
                 });
 
             modelBuilder.Entity("DannZ.Models.Permission", b =>
@@ -127,9 +128,6 @@ namespace DannZ.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("LikesNumber")
-                        .HasColumnType("int");
-
                     b.Property<string>("TextContent")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -145,6 +143,43 @@ namespace DannZ.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Posts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            TextContent = "Ey yo, im the hacker!",
+                            UploadedDateTime = new DateTime(2025, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UserId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            TextContent = "Ey yo, im NOT the hacker!",
+                            UploadedDateTime = new DateTime(2025, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UserId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            TextContent = "Ey yo, asdasdasdasdim NOT the hacker!",
+                            UploadedDateTime = new DateTime(2025, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UserId = 1
+                        },
+                        new
+                        {
+                            Id = 4,
+                            TextContent = "Ey yo, asdasdasdasdim NOT the sdasdasdashasdasdacker!",
+                            UploadedDateTime = new DateTime(2025, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UserId = 2
+                        },
+                        new
+                        {
+                            Id = 5,
+                            TextContent = "Ey yo, fuck the police!",
+                            UploadedDateTime = new DateTime(2025, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UserId = 1
+                        });
                 });
 
             modelBuilder.Entity("DannZ.Models.Role", b =>
@@ -244,6 +279,26 @@ namespace DannZ.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Biography = "I'm The Sex Lord",
+                            Email = "dann@gmail.com",
+                            Name = "Dann",
+                            Password = "$2a$11$UHAmY3s8g/F9yMfbtELVNu6zdv1lIsEaW9eP5ph13NmiNi2debsE2",
+                            RoleId = 2
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Biography = "I'm NOT The Sex Lord",
+                            Email = "robin@gmail.com",
+                            Name = "Robin",
+                            Password = "$2a$11$UHAmY3s8g/F9yMfbtELVNu6zdv1lIsEaW9eP5ph13NmiNi2debsE2",
+                            RoleId = 2
+                        });
                 });
 
             modelBuilder.Entity("DannZ.Models.UserProfileImages", b =>
@@ -294,6 +349,17 @@ namespace DannZ.Migrations
                     b.Navigation("Post");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("DannZ.Models.MediaContentPosts", b =>
+                {
+                    b.HasOne("DannZ.Models.Post", "Post")
+                        .WithMany("MediaContents")
+                        .HasForeignKey("PostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Post");
                 });
 
             modelBuilder.Entity("DannZ.Models.Post", b =>
@@ -356,6 +422,8 @@ namespace DannZ.Migrations
             modelBuilder.Entity("DannZ.Models.Post", b =>
                 {
                     b.Navigation("Comment_Posts");
+
+                    b.Navigation("MediaContents");
                 });
 
             modelBuilder.Entity("DannZ.Models.Role", b =>

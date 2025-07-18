@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Dann\\source\\repos\\DannZ\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\post\\feedpost.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\post\\feedpost.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\views\\feed\\mainfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\views\\feed\\mainfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\models\\dto\\post\\feedpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\models\\dto\\post\\feedpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\views\\shared\\_uploadpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\views\\shared\\_uploadpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\controllers\\api\\postsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\controllers\\api\\postsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\post\\create.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\post\\create.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\account\\edit.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\account\\edit.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +42,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 142,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostsApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\Api\\PostsApiController.cs",
+              "RelativeDocumentMoniker": "DannZ\\Controllers\\Api\\PostsApiController.cs",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Controllers\\Api\\PostsApiController.cs",
+              "RelativeToolTip": "DannZ\\Controllers\\Api\\PostsApiController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwCoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T14:59:52.801Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FeedPost.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\FeedPost.js",
+              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Post\\FeedPost.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\FeedPost.js",
+              "RelativeToolTip": "DannZ\\wwwroot\\js\\Post\\FeedPost.js",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwD8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-18T03:11:38.774Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainFeed.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Feed\\MainFeed.cshtml",
+              "RelativeDocumentMoniker": "DannZ\\Views\\Feed\\MainFeed.cshtml",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Feed\\MainFeed.cshtml",
+              "RelativeToolTip": "DannZ\\Views\\Feed\\MainFeed.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T19:41:39.959Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js",
+              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Post\\Create.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js",
+              "RelativeToolTip": "DannZ\\wwwroot\\js\\Post\\Create.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-17T13:59:26.759Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_UploadPost.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Shared\\_UploadPost.cshtml",
+              "RelativeDocumentMoniker": "DannZ\\Views\\Shared\\_UploadPost.cshtml",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Shared\\_UploadPost.cshtml",
+              "RelativeToolTip": "DannZ\\Views\\Shared\\_UploadPost.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T12:23:59.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FeedPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Models\\DTO\\Post\\FeedPostDTO.cs",
+              "RelativeDocumentMoniker": "DannZ\\Models\\DTO\\Post\\FeedPostDTO.cs",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Models\\DTO\\Post\\FeedPostDTO.cs",
+              "RelativeToolTip": "DannZ\\Models\\DTO\\Post\\FeedPostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T03:14:37.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "DannZ\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Models\\Post.cs",
+              "RelativeToolTip": "DannZ\\Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T16:11:03.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Edit.js",
+              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Account\\Edit.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Edit.js",
+              "RelativeToolTip": "DannZ\\wwwroot\\js\\Account\\Edit.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-17T15:30:54.136Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,30 @@
+﻿@*
+    THIS IS THE PARTIAL VIEW FOR THE FORM TO UPLOAD POST
+*@
+
+<form enctype="multipart/form-data" name="postForm" method="post" style="border:solid 1px black">
+    <div>
+        <h2>Make Post</h2>
+        <div>
+            <img src="~/images/userDefault.png" style="width:50px;height:50px;" />
+            <input type="text" name="TextContent" placeholder="What's Happening?" />
+        </div>
+            
+        <div>
+            <div>
+                <input type="file" multiple hidden name="multimediaField" />
+                <button type="button" name="btnMultimedia">
+                    <img src="~/images/multimedia.png" style="width:50px;height:50px;" />
+                </button>
+
+                <button type="button">
+                    <img src="~/images/emojie.png" style="width:50px;height:50px;" />
+                </button>
+            </div>
+
+            <button type="submit">Upload</button>
+        </div>
+
+    </div>
+</form>
+

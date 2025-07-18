@@ -270,6 +270,59 @@
           }
         }
       }
+    },
+    "/api/PostsApi/Create": {
+      "post": {
+        "tags": [
+          "PostsApi"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "TextContent": {
+                    "type": "string"
+                  },
+                  "MultimediaList": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "TextContent": {
+                  "style": "form"
+                },
+                "MultimediaList": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PostsApi": {
+      "get": {
+        "tags": [
+          "PostsApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -327,6 +380,31 @@
         },
         "additionalProperties": false
       },
+      "MediaContentPosts": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "postId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "mediaPublicId": {
+            "type": "string",
+            "nullable": true
+          },
+          "post": {
+            "$ref": "#/components/schemas/Post"
+          }
+        },
+        "additionalProperties": false
+      },
       "Permission": {
         "type": "object",
         "properties": {
@@ -359,10 +437,6 @@
             "type": "string",
             "nullable": true
           },
-          "likesNumber": {
-            "type": "integer",
-            "format": "int32"
-          },
           "uploadedDateTime": {
             "type": "string",
             "format": "date-time"
@@ -378,6 +452,13 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/CommentPost"
+            },
+            "nullable": true
+          },
+          "mediaContents": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MediaContentPosts"
             },
             "nullable": true
           }

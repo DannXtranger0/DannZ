@@ -4,6 +4,7 @@ using DannZ.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DannZ.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250717020412_initial")]
+    partial class initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -49,7 +52,7 @@ namespace DannZ.Migrations
                     b.ToTable("CommentPosts");
                 });
 
-            modelBuilder.Entity("DannZ.Models.MediaContentPosts", b =>
+            modelBuilder.Entity("DannZ.Models.MediaContent", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -65,14 +68,16 @@ namespace DannZ.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PostId")
+                    b.Property<int>("TargetId")
                         .HasColumnType("int");
+
+                    b.Property<string>("TargetType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PostId");
-
-                    b.ToTable("MediaContentPost");
+                    b.ToTable("MediaContent");
                 });
 
             modelBuilder.Entity("DannZ.Models.Permission", b =>
@@ -345,17 +350,6 @@ namespace DannZ.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("DannZ.Models.MediaContentPosts", b =>
-                {
-                    b.HasOne("DannZ.Models.Post", "Post")
-                        .WithMany("MediaContents")
-                        .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Post");
-                });
-
             modelBuilder.Entity("DannZ.Models.Post", b =>
                 {
                     b.HasOne("DannZ.Models.User", "User")
@@ -416,8 +410,6 @@ namespace DannZ.Migrations
             modelBuilder.Entity("DannZ.Models.Post", b =>
                 {
                     b.Navigation("Comment_Posts");
-
-                    b.Navigation("MediaContents");
                 });
 
             modelBuilder.Entity("DannZ.Models.Role", b =>

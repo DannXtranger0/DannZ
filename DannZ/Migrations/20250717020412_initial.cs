@@ -109,7 +109,6 @@ namespace DannZ.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     TextContent = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LikesNumber = table.Column<int>(type: "int", nullable: false),
                     UploadedDateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -203,6 +202,27 @@ namespace DannZ.Migrations
                     { 1, 2 },
                     { 2, 2 },
                     { 3, 2 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Users",
+                columns: new[] { "Id", "Biography", "Email", "Name", "Password", "RoleId" },
+                values: new object[,]
+                {
+                    { 1, "I'm The Sex Lord", "dann@gmail.com", "Dann", "$2a$11$UHAmY3s8g/F9yMfbtELVNu6zdv1lIsEaW9eP5ph13NmiNi2debsE2", 2 },
+                    { 2, "I'm NOT The Sex Lord", "robin@gmail.com", "Robin", "$2a$11$UHAmY3s8g/F9yMfbtELVNu6zdv1lIsEaW9eP5ph13NmiNi2debsE2", 2 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Posts",
+                columns: new[] { "Id", "TextContent", "UploadedDateTime", "UserId" },
+                values: new object[,]
+                {
+                    { 1, "Ey yo, im the hacker!", new DateTime(2025, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified), 1 },
+                    { 2, "Ey yo, im NOT the hacker!", new DateTime(2025, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified), 2 },
+                    { 3, "Ey yo, asdasdasdasdim NOT the hacker!", new DateTime(2025, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified), 1 },
+                    { 4, "Ey yo, asdasdasdasdim NOT the sdasdasdashasdasdacker!", new DateTime(2025, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified), 2 },
+                    { 5, "Ey yo, fuck the police!", new DateTime(2025, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified), 1 }
                 });
 
             migrationBuilder.CreateIndex(
