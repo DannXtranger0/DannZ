@@ -25,13 +25,13 @@ namespace DannZ.Services
                 //Create the new Avatar
                 var uploadParams = new ImageUploadParams
                 {
-                    File = new FileDescription(model?.AvatarUrl!.FileName, model.AvatarUrl!.OpenReadStream()),
+                    File = new FileDescription(model?.AvatarUrl!.FileName, model?.AvatarUrl!.OpenReadStream()),
                     AssetFolder = "Avatars"
                 };
                 var uploadResult = await _cloudinary.UploadAsync(uploadParams);
 
                 //Delete the old Avatar
-                if (user.UserProfileImages.AvatarUrl != null)
+                if (user.UserProfileImages?.AvatarUrl != null)
                 {
                     var deleteParams = new DeletionParams(user.UserProfileImages.AvatarPublicId);
                     var deleteResult = await _cloudinary.DestroyAsync(deleteParams);
@@ -39,7 +39,7 @@ namespace DannZ.Services
                     user.UserProfileImages.AvatarUrl = uploadResult.SecureUrl.ToString();
                     user.UserProfileImages.AvatarPublicId = uploadResult.PublicId.ToString();
                 }
-                else if (user.UserProfileImages.CoverUrl != null && user.UserProfileImages.AvatarUrl == null)
+                else if (user.UserProfileImages?.CoverUrl != null && user.UserProfileImages.AvatarUrl == null)
                 {
                     //Assign the new Avatar to the user
                     user.UserProfileImages.CoverUrl = uploadResult.SecureUrl.ToString();
@@ -76,7 +76,7 @@ namespace DannZ.Services
                     user.UserProfileImages.CoverUrl = uploadResult.SecureUrl.ToString();
                     user.UserProfileImages.CoverPublicId = uploadResult.PublicId.ToString();
                 }
-                else if (user.UserProfileImages.AvatarUrl != null && user.UserProfileImages.CoverUrl == null)
+                else if (user.UserProfileImages?.AvatarUrl != null && user.UserProfileImages.CoverUrl == null)
                 {
                     //Assign the new Avatar to the user
                     user.UserProfileImages.CoverUrl = uploadResult.SecureUrl.ToString();

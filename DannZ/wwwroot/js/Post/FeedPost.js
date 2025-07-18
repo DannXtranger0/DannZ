@@ -1,6 +1,6 @@
-﻿let mainFeed = document.getElementById("mainFeed");
+﻿let postsContainer = document.getElementById("postsContainer");
 
-document.addEventListener("DOMContentLoaded", setUpPosts);
+document.addEventListener("DOMContentLoaded", await setUpPosts);
 
 //Bringing the posts
 async function bringData() {
@@ -15,7 +15,6 @@ async function bringData() {
             throw new Error(response.status ?? "Unknown Message");
 
         let res = await response.json();
-        console.log(res);
 
         return res;
 
@@ -29,6 +28,8 @@ async function bringData() {
 //Setup the posts
 async function setUpPosts() {
     let allPosts = await bringData();
+    console.log(allPosts);
+
 
     allPosts.forEach(post => {
         const multimediaHtml = verifyMultimedia(post['multimediaUrl']) 
@@ -36,23 +37,22 @@ async function setUpPosts() {
         let postHtml = `<section style="border: 2px solid black;margin:2vh">
             <div>
                 <div>
-                    <img src="${post['userAvatar'] ?? '/images/userDefault.png'}" style="width:50px;height:50px" />         
+                    <img src="${post['userAvatarUrl'] ?? '/images/userDefault.png'}" style="width:50px;height:50px" />
                     <div>
-                        <p>${post['userName']}</p>    
-                        <p>${post['uploadedDateTime'].split("T")[0]}</p>     
+                        <p>${post['userName']}</p>
+                        <p>${post['uploadedDateTime'].split("T")[0]}</p>
                     </div>
                 </div>
 
                 <div>
-                    <p>${post['textContent']}</p>         
+                    <p>${post['textContent']}</p>
                 </div>
                         ${multimediaHtml}
-                <div>               
+                <div>
                 </div>
             </div>
         </section>`
-
-        mainFeed.innerHTML += postHtml;
+        postsContainer.innerHTML += postHtml;
     });
 
 }

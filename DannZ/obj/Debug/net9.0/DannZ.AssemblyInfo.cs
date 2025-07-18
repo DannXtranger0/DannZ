@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DannZ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48e1c94facd1db8db7eac8c300be47a89ab66393")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f832e3c21a4108c12b63ea6b5c640a46b309783f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DannZ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DannZ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

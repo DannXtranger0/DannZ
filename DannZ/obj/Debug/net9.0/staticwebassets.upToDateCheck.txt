@@ -45,6 +45,7 @@ C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap.
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Post\Post.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\css\site.css
@@ -78,6 +79,7 @@ wwwroot\js\Auth\Create.js
 wwwroot\js\Auth\Login.js
 wwwroot\js\Post\Create.js
 wwwroot\js\Post\FeedPost.js
+wwwroot\js\Post\Post.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

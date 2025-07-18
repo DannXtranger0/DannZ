@@ -23,7 +23,7 @@ async function BringProfileData() {
 //Set the data
 document.addEventListener("DOMContentLoaded", setData);
 async function setData() {
-    profileData = await BringProfileData();
+    let profileData = await BringProfileData();
 
     let nameField = document.getElementById("Name");
     let biographyField = document.getElementById("Biography");
@@ -73,8 +73,9 @@ async function editBio() {
 
     else if (btnEditBio.textContent == saveText) {
         btnEditBio.textContent = editText;
-        try {
+        biographyField.disabled = true;
 
+        try {
             let response = await fetch(`https://localhost:7238/api/AccountApi/Edit/Bio/${userId}`, {
                 method: 'PATCH',
                 headers: {

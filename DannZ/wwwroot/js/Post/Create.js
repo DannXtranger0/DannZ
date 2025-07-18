@@ -3,8 +3,10 @@ let multimediaField = document.querySelector("[name='multimediaField']");
 let btnMultimedia = document.querySelector("[name='btnMultimedia']");
 let textContentField = document.querySelector("[name='TextContent']")
 let postForm = document.querySelector("[name='postForm']");
+let useravatar = document.getElementById("userAvatar");
 //open the input File
-btnMultimedia.addEventListener("click", () => {
+btnMultimedia.addEventListener("click", (e) => {
+    e.preventDefault();
     multimediaField.click();
 })
 
@@ -12,7 +14,6 @@ btnMultimedia.addEventListener("click", () => {
 postForm.addEventListener("submit", savePost);
 async function savePost(event) {
     event.preventDefault();
-
     let formData = new FormData(postForm);
 
     let files = multimediaField.files;

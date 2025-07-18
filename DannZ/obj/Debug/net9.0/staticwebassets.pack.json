@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\js\\Post\\FeedPost.js"
     },
     {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Post.js",
+      "PackagePath": "staticwebassets\\js\\Post\\Post.js"
+    },
+    {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

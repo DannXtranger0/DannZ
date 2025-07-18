@@ -11,7 +11,7 @@ let PasswordField = document.querySelector("[name='Password']");
 let form = document.querySelector("form");
 
 let route = (window.location.pathname).split("/");
-let userId = route.at(route.length - 1);
+let userId =  parseInt(route.at(route.length - 1));
 
 document.addEventListener("DOMContentLoaded", () => {
     loadProfileData();
@@ -29,17 +29,16 @@ async function loadProfileData() {
             credentials: 'include'
         });
         if (!response.ok)
-            throw new Error(response.status ?? "Unknown Error");
+            throw new Error(response.text() ?? "Unknown Error");
 
         let data = await response.json();
         console.log(data);
-        avatar.src = data["avatarUrl"];
+        if (data["avatarUrl"] != null)
+        avatar.src = data["avatarUrl"] ;
 
         if (data["coverUrl"] != null)
-            cover.src = data["coverUrl"]
+            cover.src = data["coverUrl"] 
 
-        //CoverUrlField.value = data["coverUrl"];
-        //AvatarUrlField.value = data["avatarUrl"];
         NameField.value = data["name"];
         EmailField.value= data["email"];
 
@@ -64,7 +63,7 @@ async function saveChanges(event) {
         });
 
         if (!response.ok)
-            throw new Error(response.statusText ?? "Unknown Error")
+            throw new Error(response.text() ?? "Unknown Error")
 
         let result = await response.json();
         console.log(result);
