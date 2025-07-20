@@ -74,6 +74,7 @@ async function saveChanges(event) {
     
 
 }
+//Show the cover or avatar image at select it
 function previewImage(e) {
     let input = e.target;
 

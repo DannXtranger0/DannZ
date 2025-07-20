@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using BCrypt.Net;
 using DannZ.Models;
 using CloudinaryDotNet.Actions;
+using DannZ.Services;
 
 namespace DannZ.Controllers.Api
 {
@@ -22,9 +23,11 @@ namespace DannZ.Controllers.Api
         private readonly Cloudinary _cloudinary;
         private MyDbContext _context;
         private string cookieName;
-        public AuthApiController(MyDbContext context, Cloudinary cloudinary, IConfiguration configuration)
+        private readonly IGetUserClaimsService _getUserClaims;
+        public AuthApiController(MyDbContext context, IGetUserClaimsService getUserClaims, Cloudinary cloudinary, IConfiguration configuration)
         {
             _cloudinary = cloudinary;
+            _getUserClaims = getUserClaims;
             _configuration = configuration;
             _context = context;
             cookieName = _configuration.GetValue<string>("CookieName")!;
@@ -34,6 +37,7 @@ namespace DannZ.Controllers.Api
         public async Task<ActionResult>Login([FromBody] LoginDTO login)
         {
             var account = _context.Users
+                    .Include(x=>x.UserProfileImages)
                     .FirstOrDefault(x => x.Email == login.Email);
 
             bool matchPassword = BCrypt.Net.BCrypt.Verify(login.Password, account.Password);
@@ -41,29 +45,35 @@ namespace DannZ.Controllers.Api
             if (account == null || !matchPassword)
                     return BadRequest(new { error = "Incorrect Email Or Password" });
 
-                //traigo los claims d el usuario
-                var claimList = await GetUserClaims(account.RoleId);
+            //traigo los claims d el usuario
+            var claimList = await _getUserClaims.GetClaims(account.RoleId);
+                
+            if(account?.UserProfileImages?.AvatarUrl!=null)
+            {
+                claimList.Add(new Claim("avatarUrl", account.UserProfileImages.AvatarUrl!));
+            }
 
-                    claimList.Add(new Claim("userId", account.Id.ToString()));
+            claimList.Add(new Claim("userId", account!.Id.ToString()));
 
-                    var identity = new ClaimsIdentity(claimList, cookieName);
+            var identity = new ClaimsIdentity(claimList, cookieName);
 
-                    //Propiedades de la cookie
-                    var props = new AuthenticationProperties()
-                    {
-                        IsPersistent = login.RememberMe,
-                        ExpiresUtc = DateTimeOffset.UtcNow.AddHours(1)
-                    };
+            //Propiedades de la cookie
+            var props = new AuthenticationProperties()
+            {
+                IsPersistent = login.RememberMe,
+                ExpiresUtc = DateTimeOffset.UtcNow.AddHours(1)
+            };
 
-                    //crear principal 
-                    var principal = new ClaimsPrincipal(identity);
+            //crear principal 
+            var principal = new ClaimsPrincipal(identity);
 
 
-                    //autenticar
-                    await HttpContext.SignInAsync(cookieName, principal, props);
+            //autenticar
+            await HttpContext.SignInAsync(cookieName, principal, props);
 
-                return Ok(new {message="Login Succesfully"});
-                }
+            return Ok(new {message="Login Succesfully"});
+        }
+        
 
         [HttpPost("Create")]
         public async Task<ActionResult> Create([FromForm] RegisterDTO model)
@@ -83,6 +93,8 @@ namespace DannZ.Controllers.Api
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
+            //obtener las claims del usuario
+            var claimList = await _getUserClaims.GetClaims(user.RoleId);
 
             if (model.Avatar != null)
             {
@@ -103,13 +115,15 @@ namespace DannZ.Controllers.Api
 
                 _context.UserProfileImages.Add(uProfileImage);
                 await _context.SaveChangesAsync();
+                
+                //Añado la claim de la url del avatar usuario para las vistas
+                //en caso de que haya creado
+                claimList.Add(new Claim("avatarUrl", uProfileImage.AvatarUrl));
             }
-
-            //obtener las claims del usuario
-            var claimList = await GetUserClaims(user.RoleId);
-
+            
             //Añado la claim del userId para identificarlo en la vista
             claimList.Add(new Claim("userId", user.Id.ToString()));
+        
 
             var identity = new ClaimsIdentity(claimList, cookieName);
 
@@ -131,21 +145,6 @@ namespace DannZ.Controllers.Api
             await HttpContext.SignOutAsync();
             return Ok(new { message = "Logout Succesfully" });
         }
-        private async Task<List<Claim>> GetUserClaims(int roleId)
-        {
-            var userClaims = await _context.RolePermissions
-                   .Where(x => x.RoleId == roleId)
-                   .Include(x => x.Permission)
-                   .Select(x => x.Permission)
-                   .ToListAsync();
-
-            List<Claim> claimList = new List<Claim>();
-            foreach (var permission in userClaims)
-            {
-                if (!string.IsNullOrEmpty(permission.PermissionName))
-                    claimList.Add(new Claim("permission", permission.PermissionName.ToString()));
-            }
-            return claimList;
-        }
+       
     }
 }

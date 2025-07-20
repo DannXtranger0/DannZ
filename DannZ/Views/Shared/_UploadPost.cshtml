@@ -3,11 +3,11 @@
 *@
 
 <form enctype="multipart/form-data" name="postForm" method="post" style="border:solid 1px black">
-    <div>
+    <section  >
         <h2>Make Post</h2>
         <div>
-            <img id="userAvatar" src="~/images/userDefault.png" style="width:50px;height:50px;" />
-            <input type="text" name="TextContent" placeholder="What's Happening?" />
+            <img id="userAvatar" src="@(User.FindFirst("avatarUrl")?.Value ?? "/images/userDefault.png")" style="width:50px;height:50px;" />
+            <textarea name="TextContent" placeholder="What's Happening?"></textarea>
         </div>
             
         <div>
@@ -24,7 +24,33 @@
 
             <button type="submit">Upload</button>
         </div>
+    </section>
 
-    </div>
+    @* modal window *@
+    <section name="uploadPostModal" style="display:none">
+        <div>
+            <h2>Make Post</h2>
+            <button type="button"> 
+                <img src="/images/remove.png" style="width:25px;height:25px;" />
+            </button>
+        </div>
+
+        <div>
+            <textarea name="textContentFieldModal"></textarea>
+
+            <button type="button">
+                <img src="~/images/emojie.png" style="width:50px;height:50px;" />
+            </button>
+        </div>
+
+        <div class="files-preview-container" style="display:flex">
+            <button type="button" name="btnMultimediaModal" style="width:100px;height:170px" >
+                <img src="~/images/multimedia.png" style="width:50px;height:50px;" />
+            </button>
+        </div>
+
+        <button type="submit">Upload</button>
+
+    </section>
 </form>
 

@@ -63,6 +63,7 @@ builder.Services.AddAuthorization(options =>
 //para que .net haga inyección de dependencias automaticamente
 builder.Services.AddScoped<IAuthorizationHandler, OwnsResourceHandler>();
 builder.Services.AddScoped<IUploadProfileImageService, UploadProfileImageService>();
+builder.Services.AddScoped<IGetUserClaimsService, GetUserClaimsService>();
 
 var app = builder.Build();
 

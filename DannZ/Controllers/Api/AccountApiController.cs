@@ -5,11 +5,13 @@ using DannZ.Models;
 using DannZ.Models.DTO;
 using DannZ.Models.DTO.Account;
 using DannZ.Services;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using System.Security.Claims;
 
 namespace DannZ.Controllers.Api
 {
@@ -18,15 +20,16 @@ namespace DannZ.Controllers.Api
     public class AccountApiController : ControllerBase
     {
         private readonly IUploadProfileImageService _uploadProfileImageService;
+        private readonly IGetUserClaimsService _getUserClaims;
         private readonly IConfiguration _configuration;
         private readonly Cloudinary _cloudinary;
         private MyDbContext _context;
         private string cookieName;
-        private AccountController _accountController;
-        public AccountApiController(MyDbContext context, Cloudinary cloudinary, IConfiguration configuration, IUploadProfileImageService uploadProfileImageService)
+        public AccountApiController(MyDbContext context, IGetUserClaimsService getUserClaims, Cloudinary cloudinary, IConfiguration configuration, IUploadProfileImageService uploadProfileImageService)
         {
             _cloudinary = cloudinary;
             _configuration = configuration;
+            _getUserClaims = getUserClaims;
             _context = context;
             cookieName = _configuration.GetValue<string>("CookieName")!;
             _uploadProfileImageService = uploadProfileImageService;
@@ -89,13 +92,16 @@ namespace DannZ.Controllers.Api
 
             user.Name = model.Name;
             user.Email = model.Email;
+            var claimList = await _getUserClaims.GetClaims(user.RoleId);
 
             if (model.AvatarUrl != null)
             {
                 await _uploadProfileImageService.UploadImage("Avatar", user, model);
                 await _context.SaveChangesAsync();
+                claimList.Add(new Claim("avatarUrl", user.UserProfileImages!.AvatarUrl!));
+
             }
-            
+
             if (model.CoverUrl != null)
             {
                 await _uploadProfileImageService.UploadImage("Cover", user, model);
@@ -103,6 +109,21 @@ namespace DannZ.Controllers.Api
             }
         
             await _context.SaveChangesAsync();
+
+
+            //Añado la claim del userId para identificarlo en la vista
+            claimList.Add(new Claim("userId", user.Id.ToString()));
+
+            var identity = new ClaimsIdentity(claimList, cookieName);
+
+            //crear principal 
+            var principal = new ClaimsPrincipal(identity);
+
+            //signOut
+            await HttpContext.SignOutAsync();
+            //signIn
+            await HttpContext.SignInAsync(cookieName, principal);
+
 
             return Ok(new { message = "Account Updated Succesfully!" });
 

@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\multimedia.png"
     },
     {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\remove.png",
+      "PackagePath": "staticwebassets\\images\\remove.png"
+    },
+    {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\userDefault.png",
       "PackagePath": "staticwebassets\\images\\userDefault.png"
     },

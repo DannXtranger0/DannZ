@@ -61,9 +61,10 @@ async function setUpPosts() {
     if (multimedia.length > 0) {
         multimedia.forEach(file => {
             if (file.includes("mp4")) {
-                filesHtml += `<video src="${file}" type="video/mp4" controls></video>`
+                filesHtml += `<video src="${file}" type="video/mp4" controls
+                style="width:300px;height:300px;"></video>`
             } else {
-                filesHtml +=`<img src="${file}"/>`
+                filesHtml += `<img src="${file}" style="width:300px;height:300px;"/>`
             }
         })
     }

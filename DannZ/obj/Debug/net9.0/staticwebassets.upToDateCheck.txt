@@ -72,6 +72,7 @@ wwwroot\favicon.ico
 wwwroot\images\CoverDefault.jpg
 wwwroot\images\emojie.png
 wwwroot\images\multimedia.png
+wwwroot\images\remove.png
 wwwroot\images\userDefault.png
 wwwroot\js\Account\Edit.js
 wwwroot\js\Account\Profile.js
