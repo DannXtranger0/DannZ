@@ -4,7 +4,9 @@ C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\features\Login.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Core\FetchUtils.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery\dist\jquery.min.map
@@ -15,6 +17,8 @@ C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Pages\LoginPage.js
+C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Core\BringFormData.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
@@ -59,7 +63,6 @@ C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Auth\Login.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\favicon.ico
@@ -77,7 +80,10 @@ wwwroot\images\userDefault.png
 wwwroot\js\Account\Edit.js
 wwwroot\js\Account\Profile.js
 wwwroot\js\Auth\Create.js
-wwwroot\js\Auth\Login.js
+wwwroot\js\Core\BringFormData.js
+wwwroot\js\Core\FetchUtils.js
+wwwroot\js\features\Login.js
+wwwroot\js\Pages\LoginPage.js
 wwwroot\js\Post\Create.js
 wwwroot\js\Post\FeedPost.js
 wwwroot\js\Post\Post.js

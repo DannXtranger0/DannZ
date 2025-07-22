@@ -45,8 +45,16 @@
       "PackagePath": "staticwebassets\\js\\Auth\\Create.js"
     },
     {
-      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js",
-      "PackagePath": "staticwebassets\\js\\Auth\\Login.js"
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\BringFormData.js",
+      "PackagePath": "staticwebassets\\js\\Core\\BringFormData.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\FetchUtils.js",
+      "PackagePath": "staticwebassets\\js\\Core\\FetchUtils.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\LoginPage.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\LoginPage.js"
     },
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js",
@@ -59,6 +67,10 @@
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Post.js",
       "PackagePath": "staticwebassets\\js\\Post\\Post.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Login.js",
+      "PackagePath": "staticwebassets\\js\\features\\Login.js"
     },
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\site.js",

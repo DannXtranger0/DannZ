@@ -21,4 +21,15 @@
 
 <a hidden id="anchorEditProfile" data-id="@User.FindFirst("userId")?.Value" asp-action="Edit" asp-controller="Account" asp-route-id="@User.FindFirst("userId")?.Value">Configure Account</a>
 
- <script src="~/js/Account/Profile.js" type="module"></script>
+
+<main id="mainFeed">
+
+    <h1>This is the main feed</h1>
+    @Html.Partial("_UploadPost")
+
+    <section id="postsContainer">
+    </section>
+</main>
+
+<script src="/js/Post/Create.js" type="module" defer></script>
+<script src="~/js/Account/Profile.js" type="module"></script>

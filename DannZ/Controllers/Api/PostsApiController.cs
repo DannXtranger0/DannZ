@@ -6,6 +6,7 @@ using DannZ.Models.DTO.Post;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration.UserSecrets;
 using System.Security.Claims;
 
 namespace DannZ.Controllers.Api
@@ -87,20 +88,29 @@ namespace DannZ.Controllers.Api
         }
 
         [HttpGet]
-        public async Task<ActionResult> FeedPost()
+        public async Task<ActionResult> FeedPost([FromQuery]string? userId,[FromQuery] string? search)
         {
+
             var posts = _context.Posts
-                .Include(x => x.MediaContents)
-                .Include(x => x.User)
-                .ThenInclude(x => x.UserProfileImages)
-                .Select(p => new FeedPostDTO
-                {
-                    UserAvatarUrl = p.User.UserProfileImages.AvatarUrl,
-                    UserName = p.User.Name,
-                    TextContent = p.TextContent,
-                    UploadedDateTime = p.UploadedDateTime,
-                    MultimediaUrl = p.MediaContents.Select(x=>x.MediaUrl).ToList()
-                });
+               .Include(x => x.MediaContents)
+               .Include(x => x.User)
+               .ThenInclude(x => x.UserProfileImages)
+               .Select(p => new FeedPostDTO
+               {
+                   userId = p.UserId,
+                   UserAvatarUrl = p.User.UserProfileImages.AvatarUrl,
+                   UserName = p.User.Name,
+                   TextContent = p.TextContent,
+                   UploadedDateTime = p.UploadedDateTime,
+                   MultimediaUrl = p.MediaContents.Select(x => x.MediaUrl).ToList()
+               });
+
+            if (!string.IsNullOrEmpty(userId))
+            {
+                int userIdInt = int.Parse(userId);
+                posts = posts.Where(x => x.userId == userIdInt);
+            }
+           
 
             return Ok(posts);
         }

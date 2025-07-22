@@ -2,6 +2,7 @@
 {
     public class FeedPostDTO
     {
+        public int userId { get; set; }
         public string? UserAvatarUrl { get; set; }
         public string? UserName { get; set; }
         public DateTime? UploadedDateTime { get; set; }

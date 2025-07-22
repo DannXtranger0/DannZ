@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ayWvLWJCkQauh4BAE9ZqBnjCGsIrs1P4Duss36zp+8E=",
+  "Hash": "U/oRhmFo+XpJROGYcvl1qrY2BcIq79QVUK1b919uClw=",
   "Source": "DannZ",
   "BasePath": "_content/DannZ",
   "Mode": "Default",
@@ -143,6 +143,27 @@
       "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\1scri3a2ch-dipk6ftnad.gz",
+      "SourceId": "DannZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DannZ",
+      "RelativePath": "js/features/Login#[.{fingerprint=dipk6ftnad}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Login.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mi86v635hd",
+      "Integrity": "YsgXzJEOTWnQK2JpXb49OZQLLQGNAwsHxddG1J9eHE8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Login.js"
+    },
+    {
       "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\3fuy2ujt0i-mlv21k5csn.gz",
       "SourceId": "DannZ",
       "SourceType": "Discovered",
@@ -162,6 +183,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\4cpqd2ut3x-c6aw1067jw.gz",
+      "SourceId": "DannZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DannZ",
+      "RelativePath": "js/Core/FetchUtils#[.{fingerprint=c6aw1067jw}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\FetchUtils.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "sfmo7kmb6p",
+      "Integrity": "aCH0mUOV7bHt+zMbV/o1newWbxhfLzyZ3yP0xbjZ4u8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\FetchUtils.js"
     },
     {
       "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\4ex16of1u4-lcd1t2u6c8.gz",
@@ -374,6 +416,48 @@
       "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\6z2owk4ia9-1532c2cwqi.gz",
+      "SourceId": "DannZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DannZ",
+      "RelativePath": "js/Pages/LoginPage#[.{fingerprint=1532c2cwqi}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\LoginPage.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7h2i768lc7",
+      "Integrity": "9SME4VAewEm+/qHbbZeVdNNmTOrp+Cg02dFU7Q1KdNM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\LoginPage.js"
+    },
+    {
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\73aie605gd-ehcpj9c3of.gz",
+      "SourceId": "DannZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DannZ",
+      "RelativePath": "js/Core/BringFormData#[.{fingerprint=ehcpj9c3of}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\BringFormData.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dlptb3x9xt",
+      "Integrity": "0U2VSHwWeBAi1i7bB0cJpKyS3Q6Dozj6thBZIrCqK8A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\BringFormData.js"
+    },
+    {
       "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\7le64d72fc-63fj8s7r0e.gz",
       "SourceId": "DannZ",
       "SourceType": "Discovered",
@@ -500,12 +584,12 @@
       "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\cr8ivu9a26-1ic3hyn5xl.gz",
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\cr8ivu9a26-wxfup6mbsy.gz",
       "SourceId": "DannZ",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DannZ",
-      "RelativePath": "js/Account/Profile#[.{fingerprint=1ic3hyn5xl}]?.js.gz",
+      "RelativePath": "js/Account/Profile#[.{fingerprint=wxfup6mbsy}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -514,8 +598,8 @@
       "RelatedAsset": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Profile.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bgqienhgcx",
-      "Integrity": "a/Ac8RiIpdwd40Dkve7FAUMHObpCybF8ffKZRNe0hnM=",
+      "Fingerprint": "ayirdfyg25",
+      "Integrity": "soF6H4OR4lNFcdI/J7uQxSgp8gdKEc/ZDDzqo1wR8tc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Profile.js"
@@ -731,12 +815,12 @@
       "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\jfm6ohaf1s-epah1v5q09.gz",
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\jfm6ohaf1s-t101kva6ef.gz",
       "SourceId": "DannZ",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DannZ",
-      "RelativePath": "js/Post/Create#[.{fingerprint=epah1v5q09}]?.js.gz",
+      "RelativePath": "js/Post/Create#[.{fingerprint=t101kva6ef}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -745,8 +829,8 @@
       "RelatedAsset": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "g2f0nrl9zz",
-      "Integrity": "uGAXlW6CzaPRizFHBPgpyETExhfMPYNfnzBZeqz0HVM=",
+      "Fingerprint": "oo774f4j4a",
+      "Integrity": "qELC2vLTlkUC3VCRtjjtbG1LMIvnBCr5yw4274KZB2A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js"
@@ -1340,27 +1424,6 @@
       "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\w1o8ofjbqg-rvna0p0lkm.gz",
-      "SourceId": "DannZ",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/DannZ",
-      "RelativePath": "js/Auth/Login#[.{fingerprint=rvna0p0lkm}]?.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "x0hzelegcl",
-      "Integrity": "D50pQ90uFvLD6YqgfyaoapBMRIH1TbiQ7BTrn+GxWXk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js"
-    },
-    {
       "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\w5m7g6gd0g-v0zj4ognzu.gz",
       "SourceId": "DannZ",
       "SourceType": "Discovered",
@@ -1445,12 +1508,12 @@
       "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\ymp9gpfvnn-7ns15y8w9b.gz",
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\ymp9gpfvnn-supkbi29uu.gz",
       "SourceId": "DannZ",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DannZ",
-      "RelativePath": "js/Post/FeedPost#[.{fingerprint=7ns15y8w9b}]?.js.gz",
+      "RelativePath": "js/Post/FeedPost#[.{fingerprint=supkbi29uu}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1459,8 +1522,8 @@
       "RelatedAsset": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\FeedPost.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qaqd1nd5h5",
-      "Integrity": "nsy3L8RVdAupSjLaLS7DZ02WLj10jBWmGPzF3jJII9A=",
+      "Fingerprint": "zwvx7qqjeu",
+      "Integrity": "0478bC3oXFYr9X8G0ppHsF6jS/uP+mCbuFbiwyh42r8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\FeedPost.js"
@@ -1732,8 +1795,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1ic3hyn5xl",
-      "Integrity": "93SpjX8qhV3VgFAavZg/cKFuqCFOfkow36xwJ6XDj3E=",
+      "Fingerprint": "wxfup6mbsy",
+      "Integrity": "NF0i41jxn+cp+b94wgeTMT+HU3Uq7v/pZSM/rXlpO80=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Account\\Profile.js"
@@ -1760,12 +1823,12 @@
       "OriginalItemSpec": "wwwroot\\js\\Auth\\Create.js"
     },
     {
-      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js",
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\BringFormData.js",
       "SourceId": "DannZ",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\",
       "BasePath": "_content/DannZ",
-      "RelativePath": "js/Auth/Login#[.{fingerprint}]?.js",
+      "RelativePath": "js/Core/BringFormData#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1774,11 +1837,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rvna0p0lkm",
-      "Integrity": "mSSXoJHsUfLtR33UDA76e4QxC7p3QNmxmJUHVdvQZgw=",
+      "Fingerprint": "ehcpj9c3of",
+      "Integrity": "jr0zyW7Hc0CVsajKjOphkNhYDF8I3nvdAGdRwq89/SA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Auth\\Login.js"
+      "OriginalItemSpec": "wwwroot\\js\\Core\\BringFormData.js"
+    },
+    {
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\FetchUtils.js",
+      "SourceId": "DannZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\",
+      "BasePath": "_content/DannZ",
+      "RelativePath": "js/Core/FetchUtils#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c6aw1067jw",
+      "Integrity": "fEP+6fHnJ3y2tf5L6RhvCA+6WH9LY4C5qVXhSuBb2Qo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Core\\FetchUtils.js"
+    },
+    {
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Login.js",
+      "SourceId": "DannZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\",
+      "BasePath": "_content/DannZ",
+      "RelativePath": "js/features/Login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dipk6ftnad",
+      "Integrity": "20+NK76R9azUv/DgtXfgtd+Jrw06Isk5JEeUhK/DrUA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\features\\Login.js"
+    },
+    {
+      "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\LoginPage.js",
+      "SourceId": "DannZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\",
+      "BasePath": "_content/DannZ",
+      "RelativePath": "js/Pages/LoginPage#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1532c2cwqi",
+      "Integrity": "m+9W4Ny1aBjYiOsHbUeoGhY3FmjSkjv4iyaxpWd0UjU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Pages\\LoginPage.js"
     },
     {
       "Identity": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js",
@@ -1795,8 +1921,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "epah1v5q09",
-      "Integrity": "cp2xQgp/FsgmIG9fSKbfYeCiGZlbYAxcCE+cGxK7qRM=",
+      "Fingerprint": "t101kva6ef",
+      "Integrity": "gUbhILWbtqFY2ufDrA9LPOMzpuALMVDh6oX1r04Je/4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Post\\Create.js"
@@ -1816,8 +1942,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7ns15y8w9b",
-      "Integrity": "Q7QQJwYTm3p7Z5cYSN8XJEXLBp75NWrX/ul8K/U6z+4=",
+      "Fingerprint": "supkbi29uu",
+      "Integrity": "5JL8/Swp64s05oyk5qlYrmi9kZupM4eCyavnOCevOt0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Post\\FeedPost.js"
@@ -5027,13 +5153,13 @@
       ]
     },
     {
-      "Route": "js/Account/Profile.1ic3hyn5xl.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\cr8ivu9a26-1ic3hyn5xl.gz",
+      "Route": "js/Account/Profile.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\cr8ivu9a26-wxfup6mbsy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000997008973"
+          "Quality": "0.000705218618"
         }
       ],
       "ResponseHeaders": [
@@ -5043,19 +5169,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1002"
+          "Value": "1417"
         },
         {
           "Name": "ETag",
-          "Value": "\"a/Ac8RiIpdwd40Dkve7FAUMHObpCybF8ffKZRNe0hnM=\""
+          "Value": "\"soF6H4OR4lNFcdI/J7uQxSgp8gdKEc/ZDDzqo1wR8tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 18:53:44 GMT"
+          "Value": "Mon, 21 Jul 2025 14:02:34 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -5071,26 +5197,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"93SpjX8qhV3VgFAavZg/cKFuqCFOfkow36xwJ6XDj3E=\""
+          "Value": "W/\"NF0i41jxn+cp+b94wgeTMT+HU3Uq7v/pZSM/rXlpO80=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "1ic3hyn5xl"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Account/Profile.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-93SpjX8qhV3VgFAavZg/cKFuqCFOfkow36xwJ6XDj3E="
+          "Value": "sha256-NF0i41jxn+cp+b94wgeTMT+HU3Uq7v/pZSM/rXlpO80="
         }
       ]
     },
     {
-      "Route": "js/Account/Profile.1ic3hyn5xl.js",
+      "Route": "js/Account/Profile.js",
       "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Profile.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5100,7 +5218,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3042"
+          "Value": "4348"
         },
         {
           "Name": "Content-Type",
@@ -5108,11 +5226,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"93SpjX8qhV3VgFAavZg/cKFuqCFOfkow36xwJ6XDj3E=\""
+          "Value": "\"NF0i41jxn+cp+b94wgeTMT+HU3Uq7v/pZSM/rXlpO80=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 18:53:44 GMT"
+          "Value": "Mon, 21 Jul 2025 14:02:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NF0i41jxn+cp+b94wgeTMT+HU3Uq7v/pZSM/rXlpO80="
+        }
+      ]
+    },
+    {
+      "Route": "js/Account/Profile.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\cr8ivu9a26-wxfup6mbsy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"soF6H4OR4lNFcdI/J7uQxSgp8gdKEc/ZDDzqo1wR8tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 14:02:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-soF6H4OR4lNFcdI/J7uQxSgp8gdKEc/ZDDzqo1wR8tc="
+        }
+      ]
+    },
+    {
+      "Route": "js/Account/Profile.wxfup6mbsy.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\cr8ivu9a26-wxfup6mbsy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000705218618"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1417"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"soF6H4OR4lNFcdI/J7uQxSgp8gdKEc/ZDDzqo1wR8tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 14:02:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NF0i41jxn+cp+b94wgeTMT+HU3Uq7v/pZSM/rXlpO80=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wxfup6mbsy"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Account/Profile.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NF0i41jxn+cp+b94wgeTMT+HU3Uq7v/pZSM/rXlpO80="
+        }
+      ]
+    },
+    {
+      "Route": "js/Account/Profile.wxfup6mbsy.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Profile.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NF0i41jxn+cp+b94wgeTMT+HU3Uq7v/pZSM/rXlpO80=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 14:02:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5122,7 +5385,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1ic3hyn5xl"
+          "Value": "wxfup6mbsy"
         },
         {
           "Name": "label",
@@ -5130,13 +5393,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-93SpjX8qhV3VgFAavZg/cKFuqCFOfkow36xwJ6XDj3E="
+          "Value": "sha256-NF0i41jxn+cp+b94wgeTMT+HU3Uq7v/pZSM/rXlpO80="
         }
       ]
     },
     {
-      "Route": "js/Account/Profile.1ic3hyn5xl.js.gz",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\cr8ivu9a26-1ic3hyn5xl.gz",
+      "Route": "js/Account/Profile.wxfup6mbsy.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\cr8ivu9a26-wxfup6mbsy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5145,7 +5408,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1002"
+          "Value": "1417"
         },
         {
           "Name": "Content-Type",
@@ -5153,11 +5416,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a/Ac8RiIpdwd40Dkve7FAUMHObpCybF8ffKZRNe0hnM=\""
+          "Value": "\"soF6H4OR4lNFcdI/J7uQxSgp8gdKEc/ZDDzqo1wR8tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 18:53:44 GMT"
+          "Value": "Mon, 21 Jul 2025 14:02:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5175,7 +5438,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1ic3hyn5xl"
+          "Value": "wxfup6mbsy"
         },
         {
           "Name": "label",
@@ -5183,144 +5446,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a/Ac8RiIpdwd40Dkve7FAUMHObpCybF8ffKZRNe0hnM="
-        }
-      ]
-    },
-    {
-      "Route": "js/Account/Profile.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\cr8ivu9a26-1ic3hyn5xl.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000997008973"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1002"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a/Ac8RiIpdwd40Dkve7FAUMHObpCybF8ffKZRNe0hnM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 18:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"93SpjX8qhV3VgFAavZg/cKFuqCFOfkow36xwJ6XDj3E=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-93SpjX8qhV3VgFAavZg/cKFuqCFOfkow36xwJ6XDj3E="
-        }
-      ]
-    },
-    {
-      "Route": "js/Account/Profile.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Profile.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3042"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"93SpjX8qhV3VgFAavZg/cKFuqCFOfkow36xwJ6XDj3E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 18:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-93SpjX8qhV3VgFAavZg/cKFuqCFOfkow36xwJ6XDj3E="
-        }
-      ]
-    },
-    {
-      "Route": "js/Account/Profile.js.gz",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\cr8ivu9a26-1ic3hyn5xl.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1002"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a/Ac8RiIpdwd40Dkve7FAUMHObpCybF8ffKZRNe0hnM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Jul 2025 18:53:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-a/Ac8RiIpdwd40Dkve7FAUMHObpCybF8ffKZRNe0hnM="
+          "Value": "sha256-soF6H4OR4lNFcdI/J7uQxSgp8gdKEc/ZDDzqo1wR8tc="
         }
       ]
     },
@@ -5623,13 +5749,13 @@
       ]
     },
     {
-      "Route": "js/Auth/Login.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\w1o8ofjbqg-rvna0p0lkm.gz",
+      "Route": "js/Core/BringFormData.ehcpj9c3of.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\73aie605gd-ehcpj9c3of.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002066115702"
+          "Quality": "0.006802721088"
         }
       ],
       "ResponseHeaders": [
@@ -5639,15 +5765,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "483"
+          "Value": "146"
         },
         {
           "Name": "ETag",
-          "Value": "\"D50pQ90uFvLD6YqgfyaoapBMRIH1TbiQ7BTrn+GxWXk=\""
+          "Value": "\"0U2VSHwWeBAi1i7bB0cJpKyS3Q6Dozj6thBZIrCqK8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 13:27:47 GMT"
+          "Value": "Tue, 22 Jul 2025 13:26:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jr0zyW7Hc0CVsajKjOphkNhYDF8I3nvdAGdRwq89/SA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ehcpj9c3of"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Core/BringFormData.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jr0zyW7Hc0CVsajKjOphkNhYDF8I3nvdAGdRwq89/SA="
+        }
+      ]
+    },
+    {
+      "Route": "js/Core/BringFormData.ehcpj9c3of.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\BringFormData.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jr0zyW7Hc0CVsajKjOphkNhYDF8I3nvdAGdRwq89/SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:26:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ehcpj9c3of"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Core/BringFormData.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jr0zyW7Hc0CVsajKjOphkNhYDF8I3nvdAGdRwq89/SA="
+        }
+      ]
+    },
+    {
+      "Route": "js/Core/BringFormData.ehcpj9c3of.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\73aie605gd-ehcpj9c3of.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0U2VSHwWeBAi1i7bB0cJpKyS3Q6Dozj6thBZIrCqK8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:26:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ehcpj9c3of"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Core/BringFormData.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0U2VSHwWeBAi1i7bB0cJpKyS3Q6Dozj6thBZIrCqK8A="
+        }
+      ]
+    },
+    {
+      "Route": "js/Core/BringFormData.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\73aie605gd-ehcpj9c3of.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006802721088"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0U2VSHwWeBAi1i7bB0cJpKyS3Q6Dozj6thBZIrCqK8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:26:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5667,19 +5954,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"mSSXoJHsUfLtR33UDA76e4QxC7p3QNmxmJUHVdvQZgw=\""
+          "Value": "W/\"jr0zyW7Hc0CVsajKjOphkNhYDF8I3nvdAGdRwq89/SA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mSSXoJHsUfLtR33UDA76e4QxC7p3QNmxmJUHVdvQZgw="
+          "Value": "sha256-jr0zyW7Hc0CVsajKjOphkNhYDF8I3nvdAGdRwq89/SA="
         }
       ]
     },
     {
-      "Route": "js/Auth/Login.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js",
+      "Route": "js/Core/BringFormData.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\BringFormData.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5688,7 +5975,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "912"
+          "Value": "199"
         },
         {
           "Name": "Content-Type",
@@ -5696,11 +5983,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mSSXoJHsUfLtR33UDA76e4QxC7p3QNmxmJUHVdvQZgw=\""
+          "Value": "\"jr0zyW7Hc0CVsajKjOphkNhYDF8I3nvdAGdRwq89/SA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 13:27:47 GMT"
+          "Value": "Tue, 22 Jul 2025 13:26:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5710,13 +5997,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mSSXoJHsUfLtR33UDA76e4QxC7p3QNmxmJUHVdvQZgw="
+          "Value": "sha256-jr0zyW7Hc0CVsajKjOphkNhYDF8I3nvdAGdRwq89/SA="
         }
       ]
     },
     {
-      "Route": "js/Auth/Login.js.gz",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\w1o8ofjbqg-rvna0p0lkm.gz",
+      "Route": "js/Core/BringFormData.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\73aie605gd-ehcpj9c3of.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5725,7 +6012,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "483"
+          "Value": "146"
         },
         {
           "Name": "Content-Type",
@@ -5733,11 +6020,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"D50pQ90uFvLD6YqgfyaoapBMRIH1TbiQ7BTrn+GxWXk=\""
+          "Value": "\"0U2VSHwWeBAi1i7bB0cJpKyS3Q6Dozj6thBZIrCqK8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 13:27:47 GMT"
+          "Value": "Tue, 22 Jul 2025 13:26:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5755,18 +6042,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-D50pQ90uFvLD6YqgfyaoapBMRIH1TbiQ7BTrn+GxWXk="
+          "Value": "sha256-0U2VSHwWeBAi1i7bB0cJpKyS3Q6Dozj6thBZIrCqK8A="
         }
       ]
     },
     {
-      "Route": "js/Auth/Login.rvna0p0lkm.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\w1o8ofjbqg-rvna0p0lkm.gz",
+      "Route": "js/Core/FetchUtils.c6aw1067jw.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\4cpqd2ut3x-c6aw1067jw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002066115702"
+          "Quality": "0.005319148936"
         }
       ],
       "ResponseHeaders": [
@@ -5776,15 +6063,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "483"
+          "Value": "187"
         },
         {
           "Name": "ETag",
-          "Value": "\"D50pQ90uFvLD6YqgfyaoapBMRIH1TbiQ7BTrn+GxWXk=\""
+          "Value": "\"aCH0mUOV7bHt+zMbV/o1newWbxhfLzyZ3yP0xbjZ4u8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 13:27:47 GMT"
+          "Value": "Tue, 22 Jul 2025 13:16:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5804,27 +6091,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"mSSXoJHsUfLtR33UDA76e4QxC7p3QNmxmJUHVdvQZgw=\""
+          "Value": "W/\"fEP+6fHnJ3y2tf5L6RhvCA+6WH9LY4C5qVXhSuBb2Qo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rvna0p0lkm"
+          "Value": "c6aw1067jw"
         },
         {
           "Name": "label",
-          "Value": "js/Auth/Login.js"
+          "Value": "js/Core/FetchUtils.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mSSXoJHsUfLtR33UDA76e4QxC7p3QNmxmJUHVdvQZgw="
+          "Value": "sha256-fEP+6fHnJ3y2tf5L6RhvCA+6WH9LY4C5qVXhSuBb2Qo="
         }
       ]
     },
     {
-      "Route": "js/Auth/Login.rvna0p0lkm.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Login.js",
+      "Route": "js/Core/FetchUtils.c6aw1067jw.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\FetchUtils.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5833,7 +6120,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "912"
+          "Value": "292"
         },
         {
           "Name": "Content-Type",
@@ -5841,11 +6128,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mSSXoJHsUfLtR33UDA76e4QxC7p3QNmxmJUHVdvQZgw=\""
+          "Value": "\"fEP+6fHnJ3y2tf5L6RhvCA+6WH9LY4C5qVXhSuBb2Qo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 13:27:47 GMT"
+          "Value": "Tue, 22 Jul 2025 13:16:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5855,21 +6142,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rvna0p0lkm"
+          "Value": "c6aw1067jw"
         },
         {
           "Name": "label",
-          "Value": "js/Auth/Login.js"
+          "Value": "js/Core/FetchUtils.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mSSXoJHsUfLtR33UDA76e4QxC7p3QNmxmJUHVdvQZgw="
+          "Value": "sha256-fEP+6fHnJ3y2tf5L6RhvCA+6WH9LY4C5qVXhSuBb2Qo="
         }
       ]
     },
     {
-      "Route": "js/Auth/Login.rvna0p0lkm.js.gz",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\w1o8ofjbqg-rvna0p0lkm.gz",
+      "Route": "js/Core/FetchUtils.c6aw1067jw.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\4cpqd2ut3x-c6aw1067jw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5878,7 +6165,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "483"
+          "Value": "187"
         },
         {
           "Name": "Content-Type",
@@ -5886,11 +6173,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"D50pQ90uFvLD6YqgfyaoapBMRIH1TbiQ7BTrn+GxWXk=\""
+          "Value": "\"aCH0mUOV7bHt+zMbV/o1newWbxhfLzyZ3yP0xbjZ4u8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 13:27:47 GMT"
+          "Value": "Tue, 22 Jul 2025 13:16:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5908,26 +6195,26 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rvna0p0lkm"
+          "Value": "c6aw1067jw"
         },
         {
           "Name": "label",
-          "Value": "js/Auth/Login.js.gz"
+          "Value": "js/Core/FetchUtils.js.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-D50pQ90uFvLD6YqgfyaoapBMRIH1TbiQ7BTrn+GxWXk="
+          "Value": "sha256-aCH0mUOV7bHt+zMbV/o1newWbxhfLzyZ3yP0xbjZ4u8="
         }
       ]
     },
     {
-      "Route": "js/Post/Create.epah1v5q09.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\jfm6ohaf1s-epah1v5q09.gz",
+      "Route": "js/Core/FetchUtils.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\4cpqd2ut3x-c6aw1067jw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001078748652"
+          "Quality": "0.005319148936"
         }
       ],
       "ResponseHeaders": [
@@ -5937,15 +6224,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "926"
+          "Value": "187"
         },
         {
           "Name": "ETag",
-          "Value": "\"uGAXlW6CzaPRizFHBPgpyETExhfMPYNfnzBZeqz0HVM=\""
+          "Value": "\"aCH0mUOV7bHt+zMbV/o1newWbxhfLzyZ3yP0xbjZ4u8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 01:07:14 GMT"
+          "Value": "Tue, 22 Jul 2025 13:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fEP+6fHnJ3y2tf5L6RhvCA+6WH9LY4C5qVXhSuBb2Qo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fEP+6fHnJ3y2tf5L6RhvCA+6WH9LY4C5qVXhSuBb2Qo="
+        }
+      ]
+    },
+    {
+      "Route": "js/Core/FetchUtils.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\FetchUtils.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fEP+6fHnJ3y2tf5L6RhvCA+6WH9LY4C5qVXhSuBb2Qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fEP+6fHnJ3y2tf5L6RhvCA+6WH9LY4C5qVXhSuBb2Qo="
+        }
+      ]
+    },
+    {
+      "Route": "js/Core/FetchUtils.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\4cpqd2ut3x-c6aw1067jw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aCH0mUOV7bHt+zMbV/o1newWbxhfLzyZ3yP0xbjZ4u8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aCH0mUOV7bHt+zMbV/o1newWbxhfLzyZ3yP0xbjZ4u8="
+        }
+      ]
+    },
+    {
+      "Route": "js/features/Login.dipk6ftnad.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\1scri3a2ch-dipk6ftnad.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002732240437"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YsgXzJEOTWnQK2JpXb49OZQLLQGNAwsHxddG1J9eHE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:31:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5965,26 +6389,614 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cp2xQgp/FsgmIG9fSKbfYeCiGZlbYAxcCE+cGxK7qRM=\""
+          "Value": "W/\"20+NK76R9azUv/DgtXfgtd+Jrw06Isk5JEeUhK/DrUA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "epah1v5q09"
+          "Value": "dipk6ftnad"
         },
         {
           "Name": "label",
-          "Value": "js/Post/Create.js"
+          "Value": "js/features/Login.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cp2xQgp/FsgmIG9fSKbfYeCiGZlbYAxcCE+cGxK7qRM="
+          "Value": "sha256-20+NK76R9azUv/DgtXfgtd+Jrw06Isk5JEeUhK/DrUA="
         }
       ]
     },
     {
-      "Route": "js/Post/Create.epah1v5q09.js",
+      "Route": "js/features/Login.dipk6ftnad.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"20+NK76R9azUv/DgtXfgtd+Jrw06Isk5JEeUhK/DrUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:31:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dipk6ftnad"
+        },
+        {
+          "Name": "label",
+          "Value": "js/features/Login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-20+NK76R9azUv/DgtXfgtd+Jrw06Isk5JEeUhK/DrUA="
+        }
+      ]
+    },
+    {
+      "Route": "js/features/Login.dipk6ftnad.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\1scri3a2ch-dipk6ftnad.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YsgXzJEOTWnQK2JpXb49OZQLLQGNAwsHxddG1J9eHE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:31:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dipk6ftnad"
+        },
+        {
+          "Name": "label",
+          "Value": "js/features/Login.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YsgXzJEOTWnQK2JpXb49OZQLLQGNAwsHxddG1J9eHE8="
+        }
+      ]
+    },
+    {
+      "Route": "js/features/Login.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\1scri3a2ch-dipk6ftnad.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002732240437"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YsgXzJEOTWnQK2JpXb49OZQLLQGNAwsHxddG1J9eHE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:31:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"20+NK76R9azUv/DgtXfgtd+Jrw06Isk5JEeUhK/DrUA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-20+NK76R9azUv/DgtXfgtd+Jrw06Isk5JEeUhK/DrUA="
+        }
+      ]
+    },
+    {
+      "Route": "js/features/Login.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"20+NK76R9azUv/DgtXfgtd+Jrw06Isk5JEeUhK/DrUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:31:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-20+NK76R9azUv/DgtXfgtd+Jrw06Isk5JEeUhK/DrUA="
+        }
+      ]
+    },
+    {
+      "Route": "js/features/Login.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\1scri3a2ch-dipk6ftnad.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YsgXzJEOTWnQK2JpXb49OZQLLQGNAwsHxddG1J9eHE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:31:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YsgXzJEOTWnQK2JpXb49OZQLLQGNAwsHxddG1J9eHE8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Pages/LoginPage.1532c2cwqi.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\6z2owk4ia9-1532c2cwqi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004651162791"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9SME4VAewEm+/qHbbZeVdNNmTOrp+Cg02dFU7Q1KdNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"m+9W4Ny1aBjYiOsHbUeoGhY3FmjSkjv4iyaxpWd0UjU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1532c2cwqi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Pages/LoginPage.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m+9W4Ny1aBjYiOsHbUeoGhY3FmjSkjv4iyaxpWd0UjU="
+        }
+      ]
+    },
+    {
+      "Route": "js/Pages/LoginPage.1532c2cwqi.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\LoginPage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m+9W4Ny1aBjYiOsHbUeoGhY3FmjSkjv4iyaxpWd0UjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1532c2cwqi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Pages/LoginPage.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m+9W4Ny1aBjYiOsHbUeoGhY3FmjSkjv4iyaxpWd0UjU="
+        }
+      ]
+    },
+    {
+      "Route": "js/Pages/LoginPage.1532c2cwqi.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\6z2owk4ia9-1532c2cwqi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9SME4VAewEm+/qHbbZeVdNNmTOrp+Cg02dFU7Q1KdNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1532c2cwqi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Pages/LoginPage.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9SME4VAewEm+/qHbbZeVdNNmTOrp+Cg02dFU7Q1KdNM="
+        }
+      ]
+    },
+    {
+      "Route": "js/Pages/LoginPage.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\6z2owk4ia9-1532c2cwqi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004651162791"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9SME4VAewEm+/qHbbZeVdNNmTOrp+Cg02dFU7Q1KdNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"m+9W4Ny1aBjYiOsHbUeoGhY3FmjSkjv4iyaxpWd0UjU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m+9W4Ny1aBjYiOsHbUeoGhY3FmjSkjv4iyaxpWd0UjU="
+        }
+      ]
+    },
+    {
+      "Route": "js/Pages/LoginPage.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\LoginPage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m+9W4Ny1aBjYiOsHbUeoGhY3FmjSkjv4iyaxpWd0UjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m+9W4Ny1aBjYiOsHbUeoGhY3FmjSkjv4iyaxpWd0UjU="
+        }
+      ]
+    },
+    {
+      "Route": "js/Pages/LoginPage.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\6z2owk4ia9-1532c2cwqi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9SME4VAewEm+/qHbbZeVdNNmTOrp+Cg02dFU7Q1KdNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9SME4VAewEm+/qHbbZeVdNNmTOrp+Cg02dFU7Q1KdNM="
+        }
+      ]
+    },
+    {
+      "Route": "js/Post/Create.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\jfm6ohaf1s-t101kva6ef.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000771010023"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1296"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qELC2vLTlkUC3VCRtjjtbG1LMIvnBCr5yw4274KZB2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 20:14:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gUbhILWbtqFY2ufDrA9LPOMzpuALMVDh6oX1r04Je/4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gUbhILWbtqFY2ufDrA9LPOMzpuALMVDh6oX1r04Je/4="
+        }
+      ]
+    },
+    {
+      "Route": "js/Post/Create.js",
       "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5994,7 +7006,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2417"
+          "Value": "3840"
         },
         {
           "Name": "Content-Type",
@@ -6002,11 +7014,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cp2xQgp/FsgmIG9fSKbfYeCiGZlbYAxcCE+cGxK7qRM=\""
+          "Value": "\"gUbhILWbtqFY2ufDrA9LPOMzpuALMVDh6oX1r04Je/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 01:07:14 GMT"
+          "Value": "Sun, 20 Jul 2025 20:14:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gUbhILWbtqFY2ufDrA9LPOMzpuALMVDh6oX1r04Je/4="
+        }
+      ]
+    },
+    {
+      "Route": "js/Post/Create.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\jfm6ohaf1s-t101kva6ef.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1296"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qELC2vLTlkUC3VCRtjjtbG1LMIvnBCr5yw4274KZB2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 20:14:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qELC2vLTlkUC3VCRtjjtbG1LMIvnBCr5yw4274KZB2A="
+        }
+      ]
+    },
+    {
+      "Route": "js/Post/Create.t101kva6ef.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\jfm6ohaf1s-t101kva6ef.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000771010023"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1296"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qELC2vLTlkUC3VCRtjjtbG1LMIvnBCr5yw4274KZB2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 20:14:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gUbhILWbtqFY2ufDrA9LPOMzpuALMVDh6oX1r04Je/4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t101kva6ef"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Post/Create.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gUbhILWbtqFY2ufDrA9LPOMzpuALMVDh6oX1r04Je/4="
+        }
+      ]
+    },
+    {
+      "Route": "js/Post/Create.t101kva6ef.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gUbhILWbtqFY2ufDrA9LPOMzpuALMVDh6oX1r04Je/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 20:14:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6016,7 +7173,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "epah1v5q09"
+          "Value": "t101kva6ef"
         },
         {
           "Name": "label",
@@ -6024,13 +7181,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cp2xQgp/FsgmIG9fSKbfYeCiGZlbYAxcCE+cGxK7qRM="
+          "Value": "sha256-gUbhILWbtqFY2ufDrA9LPOMzpuALMVDh6oX1r04Je/4="
         }
       ]
     },
     {
-      "Route": "js/Post/Create.epah1v5q09.js.gz",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\jfm6ohaf1s-epah1v5q09.gz",
+      "Route": "js/Post/Create.t101kva6ef.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\jfm6ohaf1s-t101kva6ef.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6039,7 +7196,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "926"
+          "Value": "1296"
         },
         {
           "Name": "Content-Type",
@@ -6047,11 +7204,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uGAXlW6CzaPRizFHBPgpyETExhfMPYNfnzBZeqz0HVM=\""
+          "Value": "\"qELC2vLTlkUC3VCRtjjtbG1LMIvnBCr5yw4274KZB2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 01:07:14 GMT"
+          "Value": "Sun, 20 Jul 2025 20:14:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6069,7 +7226,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "epah1v5q09"
+          "Value": "t101kva6ef"
         },
         {
           "Name": "label",
@@ -6077,18 +7234,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uGAXlW6CzaPRizFHBPgpyETExhfMPYNfnzBZeqz0HVM="
+          "Value": "sha256-qELC2vLTlkUC3VCRtjjtbG1LMIvnBCr5yw4274KZB2A="
         }
       ]
     },
     {
-      "Route": "js/Post/Create.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\jfm6ohaf1s-epah1v5q09.gz",
+      "Route": "js/Post/FeedPost.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\ymp9gpfvnn-supkbi29uu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001078748652"
+          "Quality": "0.001103752759"
         }
       ],
       "ResponseHeaders": [
@@ -6098,15 +7255,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "926"
+          "Value": "905"
         },
         {
           "Name": "ETag",
-          "Value": "\"uGAXlW6CzaPRizFHBPgpyETExhfMPYNfnzBZeqz0HVM=\""
+          "Value": "\"0478bC3oXFYr9X8G0ppHsF6jS/uP+mCbuFbiwyh42r8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 01:07:14 GMT"
+          "Value": "Mon, 21 Jul 2025 14:45:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6126,163 +7283,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cp2xQgp/FsgmIG9fSKbfYeCiGZlbYAxcCE+cGxK7qRM=\""
+          "Value": "W/\"5JL8/Swp64s05oyk5qlYrmi9kZupM4eCyavnOCevOt0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cp2xQgp/FsgmIG9fSKbfYeCiGZlbYAxcCE+cGxK7qRM="
+          "Value": "sha256-5JL8/Swp64s05oyk5qlYrmi9kZupM4eCyavnOCevOt0="
         }
       ]
     },
     {
-      "Route": "js/Post/Create.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2417"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cp2xQgp/FsgmIG9fSKbfYeCiGZlbYAxcCE+cGxK7qRM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 01:07:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-cp2xQgp/FsgmIG9fSKbfYeCiGZlbYAxcCE+cGxK7qRM="
-        }
-      ]
-    },
-    {
-      "Route": "js/Post/Create.js.gz",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\jfm6ohaf1s-epah1v5q09.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "926"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uGAXlW6CzaPRizFHBPgpyETExhfMPYNfnzBZeqz0HVM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 01:07:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uGAXlW6CzaPRizFHBPgpyETExhfMPYNfnzBZeqz0HVM="
-        }
-      ]
-    },
-    {
-      "Route": "js/Post/FeedPost.7ns15y8w9b.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\ymp9gpfvnn-7ns15y8w9b.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001221001221"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "818"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nsy3L8RVdAupSjLaLS7DZ02WLj10jBWmGPzF3jJII9A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:42:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Q7QQJwYTm3p7Z5cYSN8XJEXLBp75NWrX/ul8K/U6z+4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7ns15y8w9b"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Post/FeedPost.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Q7QQJwYTm3p7Z5cYSN8XJEXLBp75NWrX/ul8K/U6z+4="
-        }
-      ]
-    },
-    {
-      "Route": "js/Post/FeedPost.7ns15y8w9b.js",
+      "Route": "js/Post/FeedPost.js",
       "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\FeedPost.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6292,7 +7304,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2094"
+          "Value": "2272"
         },
         {
           "Name": "Content-Type",
@@ -6300,11 +7312,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Q7QQJwYTm3p7Z5cYSN8XJEXLBp75NWrX/ul8K/U6z+4=\""
+          "Value": "\"5JL8/Swp64s05oyk5qlYrmi9kZupM4eCyavnOCevOt0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:42:54 GMT"
+          "Value": "Mon, 21 Jul 2025 14:45:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5JL8/Swp64s05oyk5qlYrmi9kZupM4eCyavnOCevOt0="
+        }
+      ]
+    },
+    {
+      "Route": "js/Post/FeedPost.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\ymp9gpfvnn-supkbi29uu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0478bC3oXFYr9X8G0ppHsF6jS/uP+mCbuFbiwyh42r8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 14:45:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0478bC3oXFYr9X8G0ppHsF6jS/uP+mCbuFbiwyh42r8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Post/FeedPost.supkbi29uu.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\ymp9gpfvnn-supkbi29uu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001103752759"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "905"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0478bC3oXFYr9X8G0ppHsF6jS/uP+mCbuFbiwyh42r8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 14:45:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5JL8/Swp64s05oyk5qlYrmi9kZupM4eCyavnOCevOt0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "supkbi29uu"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Post/FeedPost.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5JL8/Swp64s05oyk5qlYrmi9kZupM4eCyavnOCevOt0="
+        }
+      ]
+    },
+    {
+      "Route": "js/Post/FeedPost.supkbi29uu.js",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\FeedPost.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5JL8/Swp64s05oyk5qlYrmi9kZupM4eCyavnOCevOt0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Jul 2025 14:45:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6314,7 +7471,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7ns15y8w9b"
+          "Value": "supkbi29uu"
         },
         {
           "Name": "label",
@@ -6322,13 +7479,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Q7QQJwYTm3p7Z5cYSN8XJEXLBp75NWrX/ul8K/U6z+4="
+          "Value": "sha256-5JL8/Swp64s05oyk5qlYrmi9kZupM4eCyavnOCevOt0="
         }
       ]
     },
     {
-      "Route": "js/Post/FeedPost.7ns15y8w9b.js.gz",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\ymp9gpfvnn-7ns15y8w9b.gz",
+      "Route": "js/Post/FeedPost.supkbi29uu.js.gz",
+      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\ymp9gpfvnn-supkbi29uu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6337,7 +7494,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "818"
+          "Value": "905"
         },
         {
           "Name": "Content-Type",
@@ -6345,11 +7502,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nsy3L8RVdAupSjLaLS7DZ02WLj10jBWmGPzF3jJII9A=\""
+          "Value": "\"0478bC3oXFYr9X8G0ppHsF6jS/uP+mCbuFbiwyh42r8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:42:54 GMT"
+          "Value": "Mon, 21 Jul 2025 14:45:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6367,7 +7524,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7ns15y8w9b"
+          "Value": "supkbi29uu"
         },
         {
           "Name": "label",
@@ -6375,144 +7532,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nsy3L8RVdAupSjLaLS7DZ02WLj10jBWmGPzF3jJII9A="
-        }
-      ]
-    },
-    {
-      "Route": "js/Post/FeedPost.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\ymp9gpfvnn-7ns15y8w9b.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001221001221"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "818"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nsy3L8RVdAupSjLaLS7DZ02WLj10jBWmGPzF3jJII9A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:42:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Q7QQJwYTm3p7Z5cYSN8XJEXLBp75NWrX/ul8K/U6z+4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Q7QQJwYTm3p7Z5cYSN8XJEXLBp75NWrX/ul8K/U6z+4="
-        }
-      ]
-    },
-    {
-      "Route": "js/Post/FeedPost.js",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\FeedPost.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Q7QQJwYTm3p7Z5cYSN8XJEXLBp75NWrX/ul8K/U6z+4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:42:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Q7QQJwYTm3p7Z5cYSN8XJEXLBp75NWrX/ul8K/U6z+4="
-        }
-      ]
-    },
-    {
-      "Route": "js/Post/FeedPost.js.gz",
-      "AssetFile": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\obj\\Debug\\net9.0\\compressed\\ymp9gpfvnn-7ns15y8w9b.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "818"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nsy3L8RVdAupSjLaLS7DZ02WLj10jBWmGPzF3jJII9A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:42:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-nsy3L8RVdAupSjLaLS7DZ02WLj10jBWmGPzF3jJII9A="
+          "Value": "sha256-0478bC3oXFYr9X8G0ppHsF6jS/uP+mCbuFbiwyh42r8="
         }
       ]
     },

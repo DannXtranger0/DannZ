@@ -1,11 +1,12 @@
 ﻿let postsContainer = document.getElementById("postsContainer");
 
-document.addEventListener("DOMContentLoaded", await setUpPosts);
+document.addEventListener("DOMContentLoaded",  setUpPosts);
 
 //Bringing the posts
-async function bringData() {
+export async function bringData(urlParams) {
+    
     try {
-        let response = await fetch("https://localhost:7238/api/PostsApi", {
+        let response = await fetch(`https://localhost:7238/api/PostsApi?${urlParams.toString()}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
@@ -26,8 +27,14 @@ async function bringData() {
 
 
 //Setup the posts
-async function setUpPosts() {
-    let allPosts = await bringData();
+ async function setUpPosts() {
+
+    let params = {
+        userId: null,
+        serach: null
+    };
+    let urlParams = new URLSearchParams(params)
+    let allPosts = await bringData(params);
     console.log(allPosts);
 
 
@@ -56,7 +63,7 @@ async function setUpPosts() {
     });
 
 }
- function verifyMultimedia(multimedia) {
+export function verifyMultimedia(multimedia) {
     let filesHtml = "";
     if (multimedia.length > 0) {
         multimedia.forEach(file => {

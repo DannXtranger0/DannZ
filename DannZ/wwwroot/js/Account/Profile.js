@@ -1,8 +1,11 @@
-﻿//Obtain the id of the profile from the route
+﻿import {bringData,verifyMultimedia } from "../Post/FeedPost.js"
+//Obtain the id of the profile from the route
 let route = window.location.pathname;
 let separatedRoute = route.split("/");
 let profileId = separatedRoute.at(separatedRoute.length - 1);
 let userId = document.getElementById("anchorEditProfile").dataset.id;
+let postsContainer = document.getElementById("postsContainer");
+
 
 //Look for the data 
 async function BringProfileData() {
@@ -23,6 +26,7 @@ async function BringProfileData() {
 //Set the data
 document.addEventListener("DOMContentLoaded", setData);
 async function setData() {
+   
     let profileData = await BringProfileData();
 
     let nameField = document.getElementById("Name");
@@ -41,9 +45,6 @@ async function setData() {
         coverField.src = profileData["coverUrl"];
 
 
-
-    console.log(userId + " " + profileId);
-    console.log(userId== profileId);
     if (userId == profileId) {
         let anchorEditProfile = document.getElementById("anchorEditProfile");
         let profileContainer = document.getElementById("profileContainer");
@@ -52,7 +53,8 @@ async function setData() {
 
     }
 
-
+    setUpPosts();
+    
 }
 
 //Edit Bio
@@ -97,4 +99,44 @@ async function editBio() {
 
     }
 
+}
+
+
+//Setup the posts
+async function setUpPosts() {
+    let params = {
+        userId: profileId,
+        search: ""
+    };
+    let urlParams = new URLSearchParams()
+
+    if (params.userId) urlParams.append("userId", params.userId);
+    if (params.search) urlParams.append("search", params.search);
+
+    let allPosts = await bringData(urlParams);
+    console.log(allPosts);
+
+    allPosts.forEach(post => {
+        const multimediaHtml = verifyMultimedia(post['multimediaUrl'])
+
+        let postHtml = `<section style="border: 2px solid black;margin:2vh">
+            <div>
+                <div>
+                    <img src="${post['userAvatarUrl'] ?? '/images/userDefault.png'}" style="width:50px;height:50px" />
+                    <div>
+                        <p>${post['userName']}</p>
+                        <p>${post['uploadedDateTime'].split("T")[0]}</p>
+                    </div>
+                </div>
+
+                <div>
+                    <p>${post['textContent']}</p>
+                </div>
+                        ${multimediaHtml}
+                <div>
+                </div>
+            </div>
+        </section>`
+        postsContainer.innerHTML += postHtml;
+    });
 }
