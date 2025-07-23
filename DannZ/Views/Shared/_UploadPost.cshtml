@@ -7,7 +7,7 @@
         <h2>Make Post</h2>
         <div>
             <img id="userAvatar" src="@(User.FindFirst("avatarUrl")?.Value ?? "/images/userDefault.png")" style="width:50px;height:50px;" />
-            <textarea name="TextContent" placeholder="What's Happening?"></textarea>
+            <textarea name="TextContent" id="TextContent" placeholder="What's Happening?"></textarea>
         </div>
             
         <div>
@@ -36,7 +36,7 @@
         </div>
 
         <div>
-            <textarea name="textContentFieldModal"></textarea>
+            <textarea name="textContentFieldModal" id="textContentFieldModal"></textarea>
 
             <button type="button">
                 <img src="~/images/emojie.png" style="width:50px;height:50px;" />

@@ -9,13 +9,13 @@
 
 <img src="/images/CoverDefault.jpg" id="CoverUrl" />
 <img src="/images/userDefault.png" id="AvatarUrl" />
-
 <p id="Name">@* @Model.Name *@</p>
 
 <div id="profileContainer" hidden>
     <button id="btnEditBio">Edit Bio</button>
 </div>
-<input id="Biography" value="There is no Biography" disabled />
+
+<textarea id="Biography" value="There is no Biography" disabled></textarea>
 
 <p hidden id="userId" data-id="@Model"></p>
 
@@ -23,13 +23,10 @@
 
 
 <main id="mainFeed">
-
-    <h1>This is the main feed</h1>
     @Html.Partial("_UploadPost")
 
     <section id="postsContainer">
     </section>
 </main>
 
-<script src="/js/Post/Create.js" type="module" defer></script>
-<script src="~/js/Account/Profile.js" type="module"></script>
+<script src="~/js/Pages/ProfilePage.js" type="module"></script>

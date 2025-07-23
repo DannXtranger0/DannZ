@@ -1,45 +1,29 @@
-﻿let postsContainer = document.getElementById("postsContainer");
-
-document.addEventListener("DOMContentLoaded",  setUpPosts);
-
+﻿import {getJson } from "../Core/FetchUtils.js";
+let postsContainer = document.getElementById("postsContainer");
 //Bringing the posts
-export async function bringData(urlParams) {
-    
-    try {
-        let response = await fetch(`https://localhost:7238/api/PostsApi?${urlParams.toString()}`, {
+export async function bringData(userId,search) {
+    let params = {
+        userId: userId??"",
+        search: search??""
+    };
+    let urlParams = new URLSearchParams(params);
+
+        return await getJson(`https://localhost:7238/api/PostsApi?${urlParams.toString()}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
             }
         });
-        if (!response.ok)
-            throw new Error(response.status ?? "Unknown Message");
-
-        let res = await response.json();
-
-        return res;
-
-    } catch (err) {
-        console.log(err);
-    }
- 
 }
 
-
 //Setup the posts
- async function setUpPosts() {
+ export async function setUpPosts(allPosts) {
 
-    let params = {
-        userId: null,
-        serach: null
-    };
-    let urlParams = new URLSearchParams(params)
-    let allPosts = await bringData(params);
-    console.log(allPosts);
-
+     if (allPosts == null)
+         return;
 
     allPosts.forEach(post => {
-        const multimediaHtml = verifyMultimedia(post['multimediaUrl']) 
+        const multimediaHtml = asignPostMultimedia(post['multimediaUrl']);
 
         let postHtml = `<section style="border: 2px solid black;margin:2vh">
             <div>
@@ -63,7 +47,7 @@ export async function bringData(urlParams) {
     });
 
 }
-export function verifyMultimedia(multimedia) {
+export function asignPostMultimedia(multimedia) {
     let filesHtml = "";
     if (multimedia.length > 0) {
         multimedia.forEach(file => {

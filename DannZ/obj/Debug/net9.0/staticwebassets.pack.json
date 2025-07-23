@@ -33,16 +33,8 @@
       "PackagePath": "staticwebassets\\images\\userDefault.png"
     },
     {
-      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Edit.js",
-      "PackagePath": "staticwebassets\\js\\Account\\Edit.js"
-    },
-    {
-      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Account\\Profile.js",
-      "PackagePath": "staticwebassets\\js\\Account\\Profile.js"
-    },
-    {
-      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Auth\\Create.js",
-      "PackagePath": "staticwebassets\\js\\Auth\\Create.js"
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\AsignContentUtils.js",
+      "PackagePath": "staticwebassets\\js\\Core\\AsignContentUtils.js"
     },
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Core\\BringFormData.js",
@@ -53,24 +45,52 @@
       "PackagePath": "staticwebassets\\js\\Core\\FetchUtils.js"
     },
     {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\CreateUserPage.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\CreateUserPage.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\EditUserPage.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\EditUserPage.js"
+    },
+    {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\LoginPage.js",
       "PackagePath": "staticwebassets\\js\\Pages\\LoginPage.js"
     },
     {
-      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Create.js",
-      "PackagePath": "staticwebassets\\js\\Post\\Create.js"
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\MainFeedPage.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\MainFeedPage.js"
     },
     {
-      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\FeedPost.js",
-      "PackagePath": "staticwebassets\\js\\Post\\FeedPost.js"
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\ProfilePage.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\ProfilePage.js"
     },
     {
-      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Post\\Post.js",
-      "PackagePath": "staticwebassets\\js\\Post\\Post.js"
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\CreatePost.js",
+      "PackagePath": "staticwebassets\\js\\features\\CreatePost.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\CreateUser.js",
+      "PackagePath": "staticwebassets\\js\\features\\CreateUser.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Edit.js",
+      "PackagePath": "staticwebassets\\js\\features\\Edit.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\FeedPost.js",
+      "PackagePath": "staticwebassets\\js\\features\\FeedPost.js"
     },
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Login.js",
       "PackagePath": "staticwebassets\\js\\features\\Login.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\MainFeed.js",
+      "PackagePath": "staticwebassets\\js\\features\\MainFeed.js"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Profile.js",
+      "PackagePath": "staticwebassets\\js\\features\\Profile.js"
     },
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\site.js",

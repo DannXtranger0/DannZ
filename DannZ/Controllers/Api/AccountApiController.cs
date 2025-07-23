@@ -99,7 +99,6 @@ namespace DannZ.Controllers.Api
                 await _uploadProfileImageService.UploadImage("Avatar", user, model);
                 await _context.SaveChangesAsync();
                 claimList.Add(new Claim("avatarUrl", user.UserProfileImages!.AvatarUrl!));
-
             }
 
             if (model.CoverUrl != null)
@@ -109,7 +108,6 @@ namespace DannZ.Controllers.Api
             }
         
             await _context.SaveChangesAsync();
-
 
             //Añado la claim del userId para identificarlo en la vista
             claimList.Add(new Claim("userId", user.Id.ToString()));
@@ -124,9 +122,7 @@ namespace DannZ.Controllers.Api
             //signIn
             await HttpContext.SignInAsync(cookieName, principal);
 
-
             return Ok(new { message = "Account Updated Succesfully!" });
-
         }
 
         [HttpPatch("Edit/Bio/{id}")]

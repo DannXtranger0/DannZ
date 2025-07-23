@@ -3,8 +3,11 @@ let form = document.querySelector("form");
 
 form.addEventListener("submit", async (event) => {
     event.preventDefault();
-    await login(form);
-
-    window.location.pathname = "/Feed/MainFeed";
+    let succes = await login(form);
+    if (succes) {
+        window.location.pathname = "/Feed/MainFeed";
+    } else {
+        alert("Login failed");
+    }
 });
 

@@ -6,36 +6,35 @@
 
 <h1>Edit My Profile Account</h1>
 
-
 <form enctype="multipart/form-data" method="post">
 
     <div>
         <div>
             <img style="height:300px;width:100%" src="/images/CoverDefault.jpg" id="cover" />
-            <input type="file" accept="image/*" name="CoverUrl" />
+            <input type="file" accept="image/*" name="CoverUrl" id="CoverUrl" />
         </div>
         <div>
             <img style="width:200px;height:200px" src="/images/userDefault.png" id="avatar" />
-            <input type="file" accept="image/*"  name="AvatarUrl"  />
+            <input type="file" accept="image/*" name="AvatarUrl" id="AvatarUrl" />
         </div>
         
     </div>
     <div>
         <label for="Name">Name</label>    
-        <input type="text" name="Name"/>
+        <input type="text" name="Name" id="Name"/>
     </div>
     
     <div>
         <label for="Email">Email</label>
-        <input type="text" name="Email" />
+        <input type="text" name="Email" id="Email" />
     </div>
 
     <div>
         <label for="Password">Password</label>
-        <input type="text" name="Password" />
+        <input type="text" name="Password" id="Password" />
     </div>
 
     <button type="submit">Edit ✔</button>
 </form>
 
-<script src="~/js/Account/Edit.js" type="module"></script>
+<script src="~/js/Pages/EditUserPage.js" type="module"></script>
