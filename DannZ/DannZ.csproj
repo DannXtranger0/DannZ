@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\js\Auth\**" />
+    <Content Remove="wwwroot\js\Auth\**" />
+    <EmbeddedResource Remove="wwwroot\js\Auth\**" />
+    <None Remove="wwwroot\js\Auth\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="CloudinaryDotNet" Version="1.27.6" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.7" />
@@ -25,7 +32,6 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
-    <Folder Include="wwwroot\js\Auth\" />
   </ItemGroup>
 
 </Project>

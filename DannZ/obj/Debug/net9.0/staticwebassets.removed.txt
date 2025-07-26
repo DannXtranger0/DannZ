@@ -1,3 +1,0 @@
-C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Pages\EditPage.js
-C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Auth\Create.js
-C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\js\Post\Post.js

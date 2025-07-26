@@ -1,5 +1,4 @@
 ﻿import {getJson } from "../Core/FetchUtils.js";
-import { asignContentField } from "../Core/AsignContentUtils.js";
 
 export let btnMultimedia = document.querySelector("[name='btnMultimedia']");
 export let btnMultimediaModal = document.querySelector("[name='btnMultimediaModal']");

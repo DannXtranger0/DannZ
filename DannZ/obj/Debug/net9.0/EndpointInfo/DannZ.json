@@ -271,6 +271,37 @@
         }
       }
     },
+    "/api/CommentsApi/Create": {
+      "post": {
+        "tags": [
+          "CommentsApi"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCommentPostDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCommentPostDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCommentPostDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/PostsApi/Create": {
       "post": {
         "tags": [
@@ -362,11 +393,33 @@
             "type": "string",
             "nullable": true
           },
+          "uploadedDateTime": {
+            "type": "string",
+            "format": "date-time"
+          },
           "post": {
             "$ref": "#/components/schemas/Post"
           },
           "user": {
             "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateCommentPostDTO": {
+        "type": "object",
+        "properties": {
+          "postId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "commentContent": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

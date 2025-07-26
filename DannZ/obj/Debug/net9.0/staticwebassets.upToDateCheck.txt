@@ -77,8 +77,10 @@ C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\bootstrap\dist\css\bootstrap-
 C:\Users\Dann\source\repos\DannZ\DannZ\wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\commentWithoutComment.png
 wwwroot\images\CoverDefault.jpg
 wwwroot\images\emojie.png
+wwwroot\images\heartWithoutLike.png
 wwwroot\images\multimedia.png
 wwwroot\images\remove.png
 wwwroot\images\userDefault.png

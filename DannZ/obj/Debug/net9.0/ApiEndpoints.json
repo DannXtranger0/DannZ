@@ -155,6 +155,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DannZ.Controllers.Api.CommentsApiController",
+    "Method": "Create",
+    "RelativePath": "api/CommentsApi/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelComment",
+        "Type": "DannZ.Models.DTO.Comments.CreateCommentPostDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DannZ.Controllers.Api.PostsApiController",
     "Method": "FeedPost",
     "RelativePath": "api/PostsApi",

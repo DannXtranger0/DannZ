@@ -1,4 +1,4 @@
-﻿let profileId = document.getElementById("userId").dataset.id;
+﻿let profileId = document.getElementById("userIdHidden").dataset.id;
 let logOutButton = document.getElementById("logOutButton");
 
 document.addEventListener("DOMContentLoaded", () => {

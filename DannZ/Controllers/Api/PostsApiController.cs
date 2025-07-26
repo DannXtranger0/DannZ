@@ -2,6 +2,7 @@
 using CloudinaryDotNet.Actions;
 using DannZ.Context;
 using DannZ.Models;
+using DannZ.Models.DTO.Comments;
 using DannZ.Models.DTO.Post;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -90,25 +91,36 @@ namespace DannZ.Controllers.Api
         [HttpGet]
         public async Task<ActionResult> FeedPost([FromQuery]string? userId,[FromQuery] string? search)
         {
-
             var posts = _context.Posts
-               .Include(x => x.MediaContents)
-               .Include(x => x.User)
+               .Include(p => p.Comment_Posts)
+               .Include(p => p.MediaContents)
+               .Include(p => p.User)
                .ThenInclude(x => x.UserProfileImages)
                .Select(p => new FeedPostDTO
                {
-                   userId = p.UserId,
+                   PostId = p.Id,
+                   UserId = p.UserId,
                    UserAvatarUrl = p.User.UserProfileImages.AvatarUrl,
                    UserName = p.User.Name,
                    TextContent = p.TextContent,
                    UploadedDateTime = p.UploadedDateTime,
-                   MultimediaUrl = p.MediaContents.Select(x => x.MediaUrl).ToList()
+                   CommentsPost = p.Comment_Posts.Select(c=> new CommentPostDTO
+                   {
+                      commentId = c.Id,
+                      PostId=c.PostId,
+                      UserId=c.Id,
+                      CommentContent =c.CommentContent,
+                      UserName = c.User.Name,
+                      UserAvatarUrl = c.User.UserProfileImages.AvatarUrl,
+                      UploadedDateTime =c.UploadedDateTime,
+                   }).ToList(),
+                   MultimediaUrl = p.MediaContents.Select(x => x.MediaUrl).ToList(),
                });
 
             if (!string.IsNullOrEmpty(userId))
             {
                 int userIdInt = int.Parse(userId);
-                posts = posts.Where(x => x.userId == userIdInt);
+                posts = posts.Where(x => x.UserId == userIdInt);
             }
            
 

@@ -3,7 +3,7 @@ import { asignContentField,asignImage} from "../Core/AsignContentUtils.js"
 
 let separatedRoute = (window.location.href).split("/");
 export let profileId = separatedRoute.at(separatedRoute.length - 1);
- let userId = document.getElementById("userId").dataset.id;
+ let userId = document.getElementById("userIdHidden").dataset.id;
 
 //Look and set for the data 
 export async function BringProfileData() {
@@ -22,8 +22,10 @@ export async function setData() {
     if (userId == profileId) {
         let anchorEditProfile = document.getElementById("anchorEditProfile");
         let profileContainer = document.getElementById("profileContainer");
+        let uploadPostView = document.getElementById("uploadPostView");
         anchorEditProfile.style.display = 'block';
         profileContainer.style.display = 'inline-block';
+        uploadPostView.style.display = 'block'
     }
 
 }
@@ -62,45 +64,3 @@ export async function editBio() {
         console.log(response);
     }
 }
-
-
-
-
-////Setup the posts
-//async function setUpPosts() {
-//    let params = {
-//        userId: profileId,
-//        search: ""
-//    };
-//    let urlParams = new URLSearchParams()
-
-//    if (params.userId) urlParams.append("userId", params.userId);
-//    if (params.search) urlParams.append("search", params.search);
-
-//    let allPosts = await bringData(urlParams);
-//    console.log(allPosts);
-
-//    allPosts.forEach(post => {
-//        const multimediaHtml = verifyMultimedia(post['multimediaUrl'])
-
-//        let postHtml = `<section style="border: 2px solid black;margin:2vh">
-//            <div>
-//                <div>
-//                    <img src="${post['userAvatarUrl'] ?? '/images/userDefault.png'}" style="width:50px;height:50px" />
-//                    <div>
-//                        <p>${post['userName']}</p>
-//                        <p>${post['uploadedDateTime'].split("T")[0]}</p>
-//                    </div>
-//                </div>
-
-//                <div>
-//                    <p>${post['textContent']}</p>
-//                </div>
-//                        ${multimediaHtml}
-//                <div>
-//                </div>
-//            </div>
-//        </section>`
-//        postsContainer.innerHTML += postHtml;
-//    });
-//}

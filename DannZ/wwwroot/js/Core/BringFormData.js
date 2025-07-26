@@ -4,3 +4,7 @@
         formData =Object.fromEntries(formData.entries());
     return formData
 }
+
+export function getUserId() {
+    return  document.getElementById("userIdHidden").dataset.id;
+}

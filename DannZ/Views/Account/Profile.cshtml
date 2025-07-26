@@ -7,8 +7,8 @@
 }
 <h1>Profile</h1>
 
-<img src="/images/CoverDefault.jpg" id="CoverUrl" />
-<img src="/images/userDefault.png" id="AvatarUrl" />
+<img src="/images/CoverDefault.jpg" id="CoverUrl" style="height:300px;width:100%" />
+<img src="/images/userDefault.png" id="AvatarUrl" style="width:200px;height:200px" />
 <p id="Name">@* @Model.Name *@</p>
 
 <div id="profileContainer" hidden>
@@ -21,9 +21,10 @@
 
 <a hidden id="anchorEditProfile" data-id="@User.FindFirst("userId")?.Value" asp-action="Edit" asp-controller="Account" asp-route-id="@User.FindFirst("userId")?.Value">Configure Account</a>
 
-
 <main id="mainFeed">
-    @Html.Partial("_UploadPost")
+    <div id="uploadPostView" style="display:none">
+        @Html.Partial("_UploadPost")
+    </div>
 
     <section id="postsContainer">
     </section>

@@ -17,8 +17,16 @@
       "PackagePath": "staticwebassets\\images\\CoverDefault.jpg"
     },
     {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\commentWithoutComment.png",
+      "PackagePath": "staticwebassets\\images\\commentWithoutComment.png"
+    },
+    {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\emojie.png",
       "PackagePath": "staticwebassets\\images\\emojie.png"
+    },
+    {
+      "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\heartWithoutLike.png",
+      "PackagePath": "staticwebassets\\images\\heartWithoutLike.png"
     },
     {
       "Id": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\images\\multimedia.png",

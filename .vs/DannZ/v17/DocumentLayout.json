@@ -3,19 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Dann\\source\\repos\\DannZ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DannZ_DB/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\features\\createuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\features\\createuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\pages\\createuserpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\pages\\createuserpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\features\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\features\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\views\\auth\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\views\\auth\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\pages\\profilepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\pages\\profilepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|c:\\users\\dann\\source\\repos\\dannz\\dannz\\wwwroot\\js\\pages\\mainfeedpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F91200D6-3FE1-4B47-A3D6-85D743E56F31}|DannZ\\DannZ.csproj|solutionrelative:dannz\\wwwroot\\js\\pages\\mainfeedpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,61 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 142,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateUser.js",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\CreateUser.js",
-              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\features\\CreateUser.js",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\CreateUser.js",
-              "RelativeToolTip": "DannZ\\wwwroot\\js\\features\\CreateUser.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-23T21:54:13.255Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateUserPage.js",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\CreateUserPage.js",
-              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Pages\\CreateUserPage.js",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\CreateUserPage.js",
-              "RelativeToolTip": "DannZ\\wwwroot\\js\\Pages\\CreateUserPage.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-23T21:56:45.262Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Users [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DannZ_DB/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "dbo.Users [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-07-23T22:13:35.641Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Auth\\Create.cshtml",
-              "RelativeDocumentMoniker": "DannZ\\Views\\Auth\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Auth\\Create.cshtml",
-              "RelativeToolTip": "DannZ\\Views\\Auth\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Profile.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Profile.js",
+              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\features\\Profile.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\features\\Profile.js",
+              "RelativeToolTip": "DannZ\\wwwroot\\js\\features\\Profile.js",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-26T13:44:12.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DannZ\\Views\\Account\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Account\\Edit.cshtml",
+              "RelativeToolTip": "DannZ\\Views\\Account\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T21:55:04.694Z",
+              "WhenOpened": "2025-07-26T13:43:44.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "DannZ\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "DannZ\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-26T13:43:39.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainFeedPage.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\MainFeedPage.js",
+              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Pages\\MainFeedPage.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\MainFeedPage.js",
+              "RelativeToolTip": "DannZ\\wwwroot\\js\\Pages\\MainFeedPage.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-26T13:37:13.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfilePage.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\ProfilePage.js",
+              "RelativeDocumentMoniker": "DannZ\\wwwroot\\js\\Pages\\ProfilePage.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannZ\\DannZ\\wwwroot\\js\\Pages\\ProfilePage.js",
+              "RelativeToolTip": "DannZ\\wwwroot\\js\\Pages\\ProfilePage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-26T13:33:36.8Z",
               "EditorCaption": ""
             }
           ]

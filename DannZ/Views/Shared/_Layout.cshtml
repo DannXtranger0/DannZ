@@ -7,7 +7,7 @@
     <script type="importmap"></script>
 </head>
 <body>
-    <p id="userId" data-id="@(User.FindFirst("userId")?.Value)" hidden></p>
+    <p id="userIdHidden" data-id="@(User.FindFirst("userId")?.Value)" hidden></p>
     <header>
         <nav>
             @if(User.Identity?.IsAuthenticated ?? false){
